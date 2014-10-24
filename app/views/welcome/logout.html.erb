@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="large-centered columns text-center">
+    <h1>Are you sure you want to log out?</h1>
+    <p>
+      If you log out all the drinks you added to your list
+      will be destroyed. Is that alright?
+    </p>
+    <%= link_to 'No, I want to keep my list', drinks_path, class: 'button' %>
+    <%= link_to 'Yes, please destroy all my data', logout_path(confirm: true), method: 'delete', class: 'button alert' %>
+  </div>
+</div>

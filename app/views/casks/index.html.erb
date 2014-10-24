@@ -1,0 +1,52 @@
+<dl class="sub-nav">
+  <dt>Filter by Region:</dt>
+  <% if params[:region].present? %>
+    <dd><%= link_to 'Clear Filter', casks_path %></dd>
+  <% end %>
+  <% Cask::Sections.each do |name, query| %>
+    <dd class="<%= 'active' if params[:region] == query %>">
+      <%= link_to name, casks_path(region: query) %>
+    </dd>
+  <% end %>
+</dl>
+
+<div class="row">
+  <div class="large-centered columns">
+    <table>
+      <thead>
+        <tr>
+          <td></td>
+          <td>Cask #</td>
+          <td>Name</td>
+          <td>Brewery</td>
+          <td>Style</td>
+          <td>Region</td>
+        </tr>
+      </thead>
+      <tbody>
+        <% @casks.each do |c| %>
+          <tr>
+            <td>
+              <% if drinklist(c).empty? %>
+                <%= render partial: 'add_cask', locals: {cask: c} %>
+              <% else %>
+                <% drinklist(c).each do |entry| %>
+                <span class="<%= entry[:class] %>">
+                  <%= entry[:title] %>
+                </span>
+                <% end %>
+              <% end %>
+            </td>
+            <td><%= c.cask %></td>
+            <td><%= link_to c.name, cask_path(c) %></td>
+            <td><%= c.brewery %></td>
+            <td><%= c.style %></td>
+            <td><%= c.region %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<%= paginate @casks, window: 2 %>

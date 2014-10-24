@@ -1,0 +1,13 @@
+<% if @drinks.blank? %>
+  <%= render partial: 'no_drinks' %>
+<% else %>
+  <% @drinks.each_slice(2) do |slice| %>
+    <div class="row">
+      <% slice.each do |drink| %>
+        <div class="large-6 columns">
+          <%= render partial: 'drink', object: drink %>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+<% end %>

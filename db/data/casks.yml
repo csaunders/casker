@@ -1,0 +1,2353 @@
+---
+- :region: CALIFORNIA (#1-40)
+  :cask: 1.0
+  :brewery: BEACHWOOD BBQ *
+  :name: LAUREL IPA W/ CHINOOK FLOWERS
+  :style: AMERICAN IPA
+  :abv: 7.1
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 2.0
+  :brewery: BALLAST POINT *
+  :name: 'VICTORY AT SEA W/ CACAO NIBS & BHUT JOLAKIA GHOST PEPPERS '
+  :style: IMPERIAL PORTER
+  :abv: 10.0
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 3.0
+  :brewery: BOTTLE LOGIC *
+  :name: CALF-LIFE W/ RUM SOAKED OAK
+  :style: MILK STOUT
+  :abv: 5.5
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 4.0
+  :brewery: CORONADO *
+  :name: IDIOT
+  :style: DOUBLE IPA
+  :abv: 8.5
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 5.0
+  :brewery: CORONADO *
+  :name: ISLANDER
+  :style: AMERICAN IPA
+  :abv: 7.0
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 6.0
+  :brewery: CORONADO *
+  :name: PUNKIN DRUBLIC
+  :style: PUMPKIN ALE
+  :abv: 8.0
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 7.0
+  :brewery: EL SEGUNDO *
+  :name: 'STATION NO. 1 '
+  :style: RED ALE
+  :abv: 6.7
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 8.0
+  :brewery: EL SEGUNDO *
+  :name: BLUE HOUSE CITRA W/ PASSION FRUIT
+  :style: AMERICAN PALE ALE
+  :abv: 5.5
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 9.0
+  :brewery: GREEN FLASH *
+  :name: LE FREAK W/ KAFFIR LIME & KEY LIME ZEST  
+  :style: BELGIAN IPA
+  :abv: 9.2
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 10.0
+  :brewery: GREEN FLASH *
+  :name: 'LE FREAK W/ CAMBODIAN BLACK PEPPERCORNS '
+  :style: BELGIAN IPA
+  :abv: 9.2
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 11.0
+  :brewery: GREEN FLASH *
+  :name: 'WEST COAST IPA  W/ MANGO & FRESNO CHILIES '
+  :style: AMERICAN IPA
+  :abv: 8.5
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 12.0
+  :brewery: LADYFACE ALE *
+  :name: HOP PROJECT "AD HOC" IPA W/ SCORPION PEPPERS
+  :style: AMERICAN IPA
+  :abv: 6.6
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 13.0
+  :brewery: LADYFACE ALE *
+  :name: BARREL-AGED DERAILLEUR / FRESH CASCADE
+  :style: BIERE DE GARDE
+  :abv: 7.3
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 14.0
+  :brewery: LAGUNITAS *
+  :name: IPA W/ MOSAIC
+  :style: AMERICAN IPA
+  :abv: 6.2
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 15.0
+  :brewery: LAGUNITAS *
+  :name: LIL' SUMPIN SUMPIN
+  :style: AMERICAN PALE WHEAT
+  :abv: 7.5
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 16.0
+  :brewery: MACLEOD ALE *
+  :name: 'OLD TOASTY '
+  :style: DARK MILD
+  :abv: 4.0
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 17.0
+  :brewery: MACLEOD ALE *
+  :name: 'THE SESSION GAP '
+  :style: ORDINARY BITTER
+  :abv: 3.5
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 18.0
+  :brewery: MAGNOLIA *
+  :name: 'NEW SPEEDWAY '
+  :style: ORDINARY BITTER
+  :abv: 3.6
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 19.0
+  :brewery: MAGNOLIA *
+  :name: 'BONNIE LEE''S '
+  :style: BEST BITTER
+  :abv: 4.1
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 20.0
+  :brewery: MAGNOLIA *
+  :name: 'COLE PORTER '
+  :style: ROBUST PORTER
+  :abv: 4.8
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 21.0
+  :brewery: MAGNOLIA *
+  :name: 'PROVING GROUND '
+  :style: AMERICAN IPA
+  :abv: 7.0
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 22.0
+  :brewery: MODERN TIMES *
+  :name: BLAZING WORLD W/ MOSAIC
+  :style: HOPPY AMBER
+  :abv: 6.8
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 23.0
+  :brewery: MODERN TIMES *
+  :name: FORTUNATE ISLANDS W/ GRAPEFRUIT ZEST
+  :style: HOPPY WHEAT
+  :abv: 5.0
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 24.0
+  :brewery: MONKISH *
+  :name: BROWN HABIT W/ THAI BASIL & SRIRACHA
+  :style: BROWN FARMHOUSE
+  :abv: 8.3
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 25.0
+  :brewery: MONKISH *
+  :name: CRUX W/ LIME KAFIR LEAVES, MINT, GINGER & CALAMANSI
+  :style: BELGIAN SINGLE
+  :abv: 5.4
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 26.0
+  :brewery: NOBLE ALEWORKS *
+  :name: 'CINNAMON ROAST CRUNCH '
+  :style: MILK STOUT
+  :abv: 5.4
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 27.0
+  :brewery: PIZZA PORT - CARLSBAD *
+  :name: FRESH HOPPED RACEWAY IPA W/ PINEAPPLE & JALAPENOS
+  :style: AMERICAN IPA
+  :abv: 7.3
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 28.0
+  :brewery: PIZZA PORT - OCEAN BEACH *
+  :name: 'FRESH HOPPED BURNING OF ROME '
+  :style: AMERICAN IPA
+  :abv: 7.5
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 29.0
+  :brewery: PIZZA PORT - SOLANA BEACH *
+  :name: FRESH HOPPED INHOPSICATED W/ FRESH MOSAIC
+  :style: DOUBLE IPA
+  :abv: 9.0
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 30.0
+  :brewery: PIZZA PORT - BRESSI RANCH *
+  :name: SWAMI'S IPA W/ FRESH EQUINOX
+  :style: AMERICAN IPA
+  :abv: 6.8
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 31.0
+  :brewery: PIZZA PORT - SAN CLEMENTE *
+  :name: RIP TIDE W/ CASCADE FLOWERS & ORANGE ZEST
+  :style: STRONG PALE ALE
+  :abv: 6.2
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 32.0
+  :brewery: SIERRA NEVADA *
+  :name: PALE ALE
+  :style: AMERICAN PALE ALE
+  :abv: 5.6
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 33.0
+  :brewery: SIERRA NEVADA *
+  :name: 'TORPEDO EXTRA '
+  :style: AMERICAN IPA
+  :abv: 7.2
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 34.0
+  :brewery: SIERRA NEVADA *
+  :name: NORTHERN HEMISPHERE HARVEST
+  :style: FRESH HOP IPA
+  :abv: 6.7
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 35.0
+  :brewery: SIERRA NEVADA *
+  :name: 'NARWHAL '
+  :style: IMPERIAL STOUT
+  :abv: 10.2
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 36.0
+  :brewery: STONE *
+  :name: 'CALI-BELGIQUE IPA W/ CORIANDER, BLOOD ORANGE PEEL & CINNAMON '
+  :style: BELGIAN IPA
+  :abv: 6.9
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 37.0
+  :brewery: STONE *
+  :name: RUINATION W/ AFRICAN CUCUMBER, TANGELO, &  LIME
+  :style: DOUBLE IPA
+  :abv: 8.2
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 38.0
+  :brewery: STONE *
+  :name: GO TO IPA W/ APPLE MINT, LEMON THYME & WATERMELON
+  :style: SESSION IPA
+  :abv: 4.5
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 39.0
+  :brewery: STONE *
+  :name: SUBLIMELY SELF-RIGHTEOUS W/ SPRUCE TIPS & CHERRY
+  :style: BLACK IPA
+  :abv: 8.7
+  :session: ALL
+- :region: CALIFORNIA (#1-40)
+  :cask: 40.0
+  :brewery: STONE *
+  :name: IPA W/RASPBERRIES, JASMINE TEA, LIMES, SERRANO CHILI, & MANGO
+  :style: AMERICAN IPA
+  :abv: 6.9
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 41.0
+  :brewery: BEAVERTOWN X LERVIG *
+  :name: THE GOSE STRIKES BLACK
+  :style: BLACKBERRY GOSE
+  :abv: 4.8
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 42.0
+  :brewery: BEAVERTOWN *
+  :name: BLACK BETTY
+  :style: BLACK IPA
+  :abv: 7.4
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 43.0
+  :brewery: BEAVERTOWN *
+  :name: SMOG ROCKET
+  :style: SMOKED PORTER
+  :abv: 5.4
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 44.0
+  :brewery: HARBOUR *
+  :name: 'IMPERIAL CHOCOLATE & VANILLA STOUT '
+  :style: IMPERIAL STOUT
+  :abv: 8.7
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 45.0
+  :brewery: HARBOUR *
+  :name: MANGO & CHILI PALE ALE
+  :style: AMERICAN PALE ALE
+  :abv: 7.0
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 46.0
+  :brewery: HARBOUR *
+  :name: AJI LIMON
+  :style: AMERICAN PALE ALE
+  :abv: 6.0
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 47.0
+  :brewery: HARBOUR *
+  :name: OLD BRUIN
+  :style: BORDEAUX BARREL EDITION
+  :abv: 6.5
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 48.0
+  :brewery: HARBOUR *
+  :name: LIGHT ALE
+  :style: BITTER
+  :abv: 3.7
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 49.0
+  :brewery: MAGIC ROCK *
+  :name: 'RING MASTER '
+  :style: ORIGINAL PALE ALE
+  :abv: 3.9
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 50.0
+  :brewery: MAGIC ROCK *
+  :name: HIGH WIRE
+  :style: WEST COAST PALE ALE
+  :abv: 5.5
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 51.0
+  :brewery: MAGIC ROCK *
+  :name: RAPTURE
+  :style: RED HOP ALE
+  :abv: 4.6
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 52.0
+  :brewery: MOOR BEER *
+  :name: ENVY
+  :style: WET HOP ALE
+  :abv: 4.2
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 53.0
+  :brewery: MOOR BEER *
+  :name: 'REVIVAL '
+  :style: PALE ALE
+  :abv: 3.8
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 54.0
+  :brewery: MOOR BEER *
+  :name: CONFIDENCE
+  :style: RED ALE
+  :abv: 4.6
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 55.0
+  :brewery: SIREN CRAFT *
+  :name: WEST COAST IPA
+  :style: AMERICAN IPA
+  :abv: 5.6
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 56.0
+  :brewery: SIREN CRAFT X MAGIC ROCK *
+  :name: BROWN ALE W/ COCONUTS
+  :style: BROWN ALE
+  :abv: 7.5
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 57.0
+  :brewery: SIREN CRAFT X DE MOLEN *
+  :name: EMPRESS STOUT W/ PEPPER
+  :style: IMPERIAL STOUT
+  :abv: 7.4
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 58.0
+  :brewery: SIREN CRAFT  *
+  :name: HAUNTED DREAM
+  :style: PUMPKIN SPICED PORTER
+  :abv: 6.7
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 59.0
+  :brewery: THORNBRIDGE *
+  :name: BLACK HARRY
+  :style: DARK FRUITY ALE
+  :abv: 3.9
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 60.0
+  :brewery: THORNBRIDGE *
+  :name: LORD MARPLES
+  :style: CLASSIC ENGLISH BITTER
+  :abv: 4.0
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 61.0
+  :brewery: THORNBRIDGE *
+  :name: SEQUOIA
+  :style: AMERICAN AMBER ALE
+  :abv: 4.5
+  :session: ALL
+- :region: UNITED KINGDOM (#41-62)
+  :cask: 62.0
+  :brewery: THORNBRIDGE *
+  :name: JAIPUR
+  :style: INDIA PALE ALE
+  :abv: 5.9
+  :session: ALL
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 63.0
+  :brewery: BOMBER
+  :name: ABSOLUTE HORIZON
+  :style: DOUBLE DRY-HOPPED CASCADIAN DARK ALE
+  :abv: 6.5
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 64.0
+  :brewery: BRASSNECK *
+  :name: INERTIA II
+  :style: BOURBON BARREL AGED IMPERIAL STOUT
+  :abv: 10.0
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 65.0
+  :brewery: BRASSNECK *
+  :name: TAPSTER'S PROMISE
+  :style: BOURBON BARREL AGED STRONG ALE
+  :abv: 9.0
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 66.0
+  :brewery: CENTRAL CITY
+  :name: RED RACER ESB
+  :style: DOUBLE DRY-HOPPED EXTRA SPECIAL BITTER
+  :abv: 5.6
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 67.0
+  :brewery: CENTRAL CITY X PARALLEL 49
+  :name: RUM & RASIN DUBBEL TRUBBLE
+  :style: BELGIAN DUBBEL W/ RUM SOAKED RAISINS
+  :abv: 6.5
+  :session: 2.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 68.0
+  :brewery: CENTRAL CITY X GIGANTIC X PARALLEL 49 *
+  :name: GIVE EM BOTH BARRELS
+  :style: COGNAC/BOURBON BARREL-AGED IMPERIAL IPA
+  :abv: 9.0
+  :session: 2.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 69.0
+  :brewery: CENTRAL CITY
+  :name: RED RACER PUMPKIN
+  :style: SPICED PUMPKIN ALE
+  :abv: 5.0
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 70.0
+  :brewery: DRIFTWOOD
+  :name: FAT TUG
+  :style: AMERICAN IPA
+  :abv: 7.0
+  :session: 2.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 71.0
+  :brewery: FOUR WINDS
+  :name: JUXTAPOSE
+  :style: BRETT IPA
+  :abv: 6.5
+  :session: 3.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 72.0
+  :brewery: FOUR WINDS
+  :name: POLYNESIAN PORTER
+  :style: OAT PORTER
+  :abv: 5.5
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 73.0
+  :brewery: FOUR WINDS
+  :name: PROTECT YOUR NECT
+  :style: IPA CONDITIONED W/ NECTARINES
+  :abv: 7.0
+  :session: 2.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 74.0
+  :brewery: GRANVILLE ISLAND *
+  :name: COCOA LOCO
+  :style: CHOCOLATE IMPERIAL STOUT
+  :abv: 9.7
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 75.0
+  :brewery: HOWE SOUND
+  :name: SKY PILOT
+  :style: NORTHWEST PALE ALE
+  :abv: 5.0
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 76.0
+  :brewery: HOWE SOUND
+  :name: DEVIL'S ELBOW
+  :style: INDIA PALE ALE
+  :abv: 6.0
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 77.0
+  :brewery: HOWE SOUND
+  :name: RAIL ALE
+  :style: NUT BROWN ALE
+  :abv: 5.0
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 78.0
+  :brewery: HOWE SOUND
+  :name: DIAMOND HEAD STOUT
+  :style: OATMEAL STOUT
+  :abv: 5.0
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 79.0
+  :brewery: HOWE SOUND *
+  :name: PUMPKINEATER
+  :style: IMPERIAL PUMPKIN ALE
+  :abv: 8.5
+  :session: 2.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 80.0
+  :brewery: PARALLEL 49
+  :name: DRY HOPPED GYPSY TEARS
+  :style: RUBY ALE
+  :abv: 6.0
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 81.0
+  :brewery: PARALLEL 49
+  :name: 'OLD BOY '
+  :style: BROWN ALE
+  :abv: 5.0
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 82.0
+  :brewery: PARALLEL 49
+  :name: SALTY SCOT
+  :style: SEA SALTED CARAMEL SCOTTISH ALE
+  :abv: 7.5
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 83.0
+  :brewery: PERSEPHONE
+  :name: PBC DRY STOUT
+  :style: DRY STOUT
+  :abv: 4.5
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 84.0
+  :brewery: R & B
+  :name: DARK STAR FIG
+  :style: OATMEAL STOUT W/ LOCAL FIGS
+  :abv: 5.0
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 85.0
+  :brewery: R & B
+  :name: SMOKED APPLE LAGER
+  :style: SMOKED APPLE CIDER USING BELGIAN YEAST
+  :abv: 6.0
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 86.0
+  :brewery: STEEL TOAD
+  :name: BEST BITTER
+  :style: ENGLISH BEST BITTER
+  :abv: 4.0
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 87.0
+  :brewery: STEEL TOAD
+  :name: MANDARINA BAVARIA PALE
+  :style: SINGLE HOP PALE ALE
+  :abv: 5.5
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 88.0
+  :brewery: STEEL TOAD
+  :name: OATMEAL STOUT
+  :style: STOUT
+  :abv: 5.5
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 89.0
+  :brewery: STORM
+  :name: HEMINGWAY
+  :style: IPA W/ WORMWOOD
+  :abv: 7.5
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 90.0
+  :brewery: TOWNSITE
+  :name: TIME WARP
+  :style: WET-HOPPED PALE ALE W/ SMOKED HOPS
+  :abv: 5.5
+  :session: 1.0
+- :region: BRITISH COLUMBIA (#63-91)
+  :cask: 91.0
+  :brewery: TREE
+  :name: 'SASPARILLA '
+  :style: AMERICAN IPA W/ SARSAPARILLA
+  :abv: 5.5
+  :session: 1.0
+- :region: ALBERTA (#92-108)
+  :cask: 92.0
+  :brewery: BIG ROCK
+  :name: BLACK CURRANT
+  :style: BROWN ALE W/ BLACK CURRANT
+  :abv: 5.0
+  :session: 1.0
+- :region: ALBERTA (#92-108)
+  :cask: 93.0
+  :brewery: BIG ROCK *
+  :name: DARK BELGIAN ALE
+  :style: DARK BELGIAN ALE
+  :abv: 9.3
+  :session: 1.0
+- :region: ALBERTA (#92-108)
+  :cask: 94.0
+  :brewery: BIG ROCK
+  :name: EXPRESS IPA
+  :style: AMERICAN IPA W/ PEARS
+  :abv: 5.5
+  :session: 1.0
+- :region: ALBERTA (#92-108)
+  :cask: 95.0
+  :brewery: BIG ROCK
+  :name: MESQUITE MAPLE ALE
+  :style: STRONG SCOTTISH ALE
+  :abv: 7.0
+  :session: 1.0
+- :region: ALBERTA (#92-108)
+  :cask: 96.0
+  :brewery: BIG ROCK
+  :name: SPICE HEFFE
+  :style: SPICED HEFFEWEIZEN
+  :abv: 5.0
+  :session: 1.0
+- :region: ALBERTA (#92-108)
+  :cask: 97.0
+  :brewery: BREWSTERS
+  :name: BELGIAN DUBBEL
+  :style: BARREL-AGED DUBBEL
+  :abv: 7.0
+  :session: 1.0
+- :region: ALBERTA (#92-108)
+  :cask: 98.0
+  :brewery: BREWSTERS *
+  :name: BELGIAN TRIPEL
+  :style: BELGIAN TRIPEL
+  :abv: 8.6
+  :session: 1.0
+- :region: ALBERTA (#92-108)
+  :cask: 99.0
+  :brewery: BREWSTERS
+  :name: BELGIAN WIT
+  :style: BELGIAN WIT
+  :abv: 5.0
+  :session: 1.0
+- :region: ALBERTA (#92-108)
+  :cask: 100.0
+  :brewery: BREWSTERS
+  :name: GERMAN PILSNER
+  :style: 'PILS W/ JUNIPER '
+  :abv: 5.0
+  :session: 1.0
+- :region: ALBERTA (#92-108)
+  :cask: 101.0
+  :brewery: HOGS HEAD
+  :name: HOPSLAYER
+  :style: IMPERIAL IPA
+  :abv: 7.5
+  :session: 1.0
+- :region: ALBERTA (#92-108)
+  :cask: 102.0
+  :brewery: HOGS HEAD
+  :name: PUMPKIN
+  :style: SPCIED PUMPKIN ALE
+  :abv: 5.5
+  :session: 1.0
+- :region: ALBERTA (#92-108)
+  :cask: 103.0
+  :brewery: VILLAGE
+  :name: VILLAGE MAIDEN
+  :style: INDIA SESSION ALE
+  :abv: 4.6
+  :session: 1.0
+- :region: ALBERTA (#92-108)
+  :cask: 104.0
+  :brewery: VILLAGE
+  :name: VILLAGE BRUNETTE
+  :style: DUNKELWEIZEN
+  :abv: 5.5
+  :session: 1.0
+- :region: ALBERTA (#92-108)
+  :cask: 105.0
+  :brewery: WILD ROSE *
+  :name: LIFE ON MARS
+  :style: BIERE DE MARS
+  :abv: 8.2
+  :session: 1.0
+- :region: ALBERTA (#92-108)
+  :cask: 106.0
+  :brewery: WILD ROSE
+  :name: VANILLA BOURON PORTER
+  :style: ROBUST PORTER W/ VANILLA BEANS
+  :abv: 7.0
+  :session: 1.0
+- :region: ALBERTA (#92-108)
+  :cask: 107.0
+  :brewery: WILD ROSE
+  :name: IPA
+  :style: INDIA PALE ALE W/ GALAXY
+  :abv: 6.0
+  :session: 1.0
+- :region: ALBERTA (#92-108)
+  :cask: 108.0
+  :brewery: WILD ROSE
+  :name: THE MIDNIGHT SON
+  :style: FINNISH FARMHOUSE
+  :abv: 5.0
+  :session: 1.0
+- :region: MARITIMES (#109-125)
+  :cask: 109.0
+  :brewery: BAD APPLE
+  :name: OPERATION GREEN RING
+  :style: CUCUMBER MINT PALE
+  :abv: 4.9
+  :session: 1.0
+- :region: MARITIMES (#109-125)
+  :cask: 110.0
+  :brewery: BAD APPLE *
+  :name: BLACK & TACKLE
+  :style: WINE BARREL AGED RUSSIAN IMPERIAL STOUT
+  :abv: 10.0
+  :session: 1.0
+- :region: MARITIMES (#109-125)
+  :cask: 111.0
+  :brewery: BIG SPRUCE
+  :name: MR.INCREDIBLE
+  :style: DRY HOPPED IRISH RED ALE
+  :abv: 5.1
+  :session: 1.0
+- :region: MARITIMES (#109-125)
+  :cask: 112.0
+  :brewery: BIG SPRUCE
+  :name: CEREAL KILLER
+  :style: OATMEAL STOUT
+  :abv: 5.4
+  :session: 1.0
+- :region: MARITIMES (#109-125)
+  :cask: 113.0
+  :brewery: BOXING ROCK
+  :name: TEMPTATION RED
+  :style: AMERICAN RED ALE
+  :abv: 6.0
+  :session: 1.0
+- :region: MARITIMES (#109-125)
+  :cask: 114.0
+  :brewery: BOXING ROCK
+  :name: CRAFTY JACK
+  :style: ENGLISH ALE
+  :abv: 4.2
+  :session: 1.0
+- :region: MARITIMES (#109-125)
+  :cask: 115.0
+  :brewery: GREG NASH
+  :name: TERROIR
+  :style: WETHOP HARVEST IPA
+  :abv: 7.0
+  :session: 1.0
+- :region: MARITIMES (#109-125)
+  :cask: 116.0
+  :brewery: 'GRIMROSS '
+  :name: CHANTELOPE
+  :style: 100% BRETT SAISON
+  :abv: 5.8
+  :session: 1.0
+- :region: MARITIMES (#109-125)
+  :cask: 117.0
+  :brewery: NORTH BREWING
+  :name: BELGIAN IPA
+  :style: BELGIAN IPA
+  :abv: 6.5
+  :session: 1.0
+- :region: MARITIMES (#109-125)
+  :cask: 118.0
+  :brewery: NORTH BREWING
+  :name: WINTER SAISON
+  :style: SAISON W/ SPICES
+  :abv: 5.5
+  :session: 1.0
+- :region: MARITIMES (#109-125)
+  :cask: 119.0
+  :brewery: PEI BREWING
+  :name: WORKSHOP WILD ALE
+  :style: BARREL-AGED SAISON
+  :abv: 5.0
+  :session: 1.0
+- :region: MARITIMES (#109-125)
+  :cask: 120.0
+  :brewery: PEI BREWING
+  :name: BLOOD ORANGE ON THE TRACKS
+  :style: INDIA PALE ALE W/ BLOOD ORANGE
+  :abv: 6.2
+  :session: 1.0
+- :region: MARITIMES (#109-125)
+  :cask: 121.0
+  :brewery: PROPELLER
+  :name: PROPELLER ESB
+  :style: EXTRA SPECIAL BITTER
+  :abv: 5.0
+  :session: 1.0
+- :region: MARITIMES (#109-125)
+  :cask: 122.0
+  :brewery: PUMPHOUSE
+  :name: 4 ALARM IPA
+  :style: AMERICAN IPA
+  :abv: 7.0
+  :session: 1.0
+- :region: MARITIMES (#109-125)
+  :cask: 123.0
+  :brewery: PUMPHOUSE
+  :name: PREMIUM LAGER
+  :style: AMERICAN LAGER
+  :abv: 5.0
+  :session: 1.0
+- :region: MARITIMES (#109-125)
+  :cask: 124.0
+  :brewery: UNCLE LEO
+  :name: SMOKED PORTER
+  :style: SMOKED PORTER
+  :abv: 6.8
+  :session: 1.0
+- :region: MARITIMES (#109-125)
+  :cask: 125.0
+  :brewery: UNCLE LEO
+  :name: DRY HOPPED IPA
+  :style: DRY HOPPED IPA
+  :abv: 6.0
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 126.0
+  :brewery: BENELUX
+  :name: MOISSON
+  :style: SAISON HARVEST
+  :abv: 7.0
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 127.0
+  :brewery: BENELUX
+  :name: TEMPERANCE
+  :style: ORDINARY BITTER
+  :abv: 4.2
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 128.0
+  :brewery: BENELUX
+  :name: trIBUnale
+  :style: INDIA SESSION ALE
+  :abv: 3.9
+  :session: 2.0
+- :region: QUEBEC (#126-171)
+  :cask: 129.0
+  :brewery: DU CANAL
+  :name: SAN LUPULO
+  :style: AMERICAN PALE ALE
+  :abv: 6.0
+  :session: 2.0
+- :region: QUEBEC (#126-171)
+  :cask: 130.0
+  :brewery: DUNHAM
+  :name: AMERICAN PALE ALE ELLA/COLOMBUS
+  :style: AMERICAN PALE ALE
+  :abv: 5.5
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 131.0
+  :brewery: DUNHAM
+  :name: BERLINER MELON WEISSE
+  :style: BERLINER WEISSE W/ HUELL MELON HOP
+  :abv: 3.9
+  :session: 2.0
+- :region: QUEBEC (#126-171)
+  :cask: 132.0
+  :brewery: DUNHAM
+  :name: BIG TOME PALE ALE
+  :style: 100% BRETT FERMENTED PALE ALE
+  :abv: 6.0
+  :session: 2.0
+- :region: QUEBEC (#126-171)
+  :cask: 133.0
+  :brewery: DUNHAM
+  :name: SAISON DU PINANCLE RESERVE
+  :style: HOPPY SAISON WINE BARREL-AGED W/ BRETT
+  :abv: 6.5
+  :session: 3.0
+- :region: QUEBEC (#126-171)
+  :cask: 134.0
+  :brewery: DUNHAM
+  :name: LAPATT PORTER
+  :style: ROBUST PORTER
+  :abv: 6.0
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 135.0
+  :brewery: MCAUSLAN
+  :name: ST.AMBROISE PALE ALE
+  :style: PALE ALE
+  :abv: 5.0
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 136.0
+  :brewery: MCAUSLAN
+  :name: HARVEST ALE
+  :style: HARVEST ALE
+  :abv: 4.0
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 137.0
+  :brewery: MCAUSLAN
+  :name: DRY STOUT
+  :style: DRY STOUT
+  :abv: 4.4
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 138.0
+  :brewery: BRASSEURS DU MONDE *
+  :name: ALE DE HARDY
+  :style: ENGLISH BARLEY WINE
+  :abv: 10.5
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 139.0
+  :brewery: BRASSEURS DU MONDE
+  :name: VIELLE PORTER
+  :style: ENGLISH PORTER W/ CASCADE & COFFEE
+  :abv: 5.5
+  :session: 2.0
+- :region: QUEBEC (#126-171)
+  :cask: 140.0
+  :brewery: GLUTENBERG
+  :name: GLUTENBERG BLONDE W/ SORACHI ACE HOPS
+  :style: BLONDE ALE
+  :abv: 4.5
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 141.0
+  :brewery: GLUTENBERG
+  :name: GLUTENBERG RED W/ WILLAMETTE HOPS
+  :style: RED ALE
+  :abv: 5.0
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 142.0
+  :brewery: GLUTENBERG
+  :name: GLUTENBERG IPA W/ CITRA-SIMCOE HOPS
+  :style: INDIA PALE ALE
+  :abv: 6.0
+  :session: 2.0
+- :region: QUEBEC (#126-171)
+  :cask: 143.0
+  :brewery: CHARELEVOIX
+  :name: FLACATOUNE
+  :style: ABBEY GOLDEN ALE
+  :abv: 7.0
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 144.0
+  :brewery: DIEU DU CIEL!
+  :name: CHEMIN DE CROIX
+  :style: OLD STYLE INDIA PORTER
+  :abv: 7.5
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 145.0
+  :brewery: DIEU DU CIEL!
+  :name: MOSAIKA
+  :style: MOSAIC PALE ALE
+  :abv: 5.5
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 146.0
+  :brewery: DIEU DU CIEL! *
+  :name: ISSEKI NICHO SPECIAL AMARILLO
+  :style: IMPERIAL DARK SAISON
+  :abv: 9.5
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 147.0
+  :brewery: DIEU DU CIEL! *
+  :name: ISSEKI NICHO SPECIAL MOSAIC
+  :style: IMPERIAL DARK SAISON
+  :abv: 9.5
+  :session: 2.0
+- :region: QUEBEC (#126-171)
+  :cask: 148.0
+  :brewery: DIEU DU CIEL!
+  :name: DISCO SOLEIL XTRA KUMQUAT/CHINOOK
+  :style: AMERICAN IPA W/ KUMQUATS
+  :abv: 6.5
+  :session: 2.0
+- :region: QUEBEC (#126-171)
+  :cask: 149.0
+  :brewery: DIEU DU CIEL!
+  :name: DISCO SOLEIL XTRA CITRA
+  :style: AMERICAN IPA W/ KUMQUATS
+  :abv: 6.5
+  :session: 3.0
+- :region: QUEBEC (#126-171)
+  :cask: 150.0
+  :brewery: DIEU DU CIEL!
+  :name: PAIENNE SPECIAL CITRA
+  :style: BLOND ALE
+  :abv: 5.5
+  :session: 2.0
+- :region: QUEBEC (#126-171)
+  :cask: 151.0
+  :brewery: DIEU DU CIEL!
+  :name: MORALITE SPECIAL CHINOOK
+  :style: AMERICAN IPA
+  :abv: 6.9
+  :session: 3.0
+- :region: QUEBEC (#126-171)
+  :cask: 152.0
+  :brewery: DIEU DU CIEL! *
+  :name: PECHE MORTEL XTRA CAFÉ
+  :style: COFFEE IMPERIAL STOUT
+  :abv: 9.5
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 153.0
+  :brewery: HOPFENSTARK
+  :name: POST COLONIAL
+  :style: AMERICAN IPA
+  :abv: 6.5
+  :session: 2.0
+- :region: QUEBEC (#126-171)
+  :cask: 154.0
+  :brewery: HOPFENSTARK *
+  :name: GREG
+  :style: AMERICAN FOREIGN STOUT
+  :abv: 8.0
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 155.0
+  :brewery: HOPFENSTARK
+  :name: END OF TRAIL
+  :style: AMERICAN PALE ALE
+  :abv: 5.5
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 156.0
+  :brewery: LE CASTOR
+  :name: SESSION HOUBLON
+  :style: INDIA SESSION ALE
+  :abv: 4.3
+  :session: 2.0
+- :region: QUEBEC (#126-171)
+  :cask: 157.0
+  :brewery: LE CASTOR
+  :name: CITRA WEISSE
+  :style: HOPFENWEISSE
+  :abv: 5.0
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 158.0
+  :brewery: LE CASTOR
+  :name: OATMEAL STOUT
+  :style: OATMEAL STOUT
+  :abv: 5.0
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 159.0
+  :brewery: LE SAINT BOCK
+  :name: CALICE
+  :style: AMERICAN IPA W CITRA
+  :abv: 6.5
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 160.0
+  :brewery: LES BRASSEURS DU TEMPS
+  :name: BLANCHE DE KORALIE
+  :style: BELGIAN WHEAT W/ CHAMOMILE
+  :abv: 5.0
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 161.0
+  :brewery: LES BRASSEURS DU TEMPS
+  :name: ESB 1821
+  :style: EXTRA SPECIAL BITTER
+  :abv: 5.5
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 162.0
+  :brewery: LES TROIS MOUSQUETAIRES
+  :name: KELLERBIER
+  :style: UNFILTERED PILSNER
+  :abv: 5.5
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 163.0
+  :brewery: LES TROIS MOUSQUETAIRES *
+  :name: BRETT WINE
+  :style: AMERCIAN BARLEYWINE W/ BRETT
+  :abv: 12.0
+  :session: 2.0
+- :region: QUEBEC (#126-171)
+  :cask: 164.0
+  :brewery: LES TROIS MOUSQUETAIRES *
+  :name: RÉSERVE DE NOËL
+  :style: EXTRA STRONG RED LAGER W/ XMAS SPICES
+  :abv: 10.5
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 165.0
+  :brewery: LES TROIS MOUSQUETAIRES
+  :name: CLEAR IPA
+  :style: SESSION IPA
+  :abv: 2.8
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 166.0
+  :brewery: LES TROIS MOUSQUETAIRES *
+  :name: DIXIÈME
+  :style: IMPERIAL BLACK KRIEK
+  :abv: 10.0
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 167.0
+  :brewery: TROU DU DIABLE
+  :name: PUNK RAUCH
+  :style: SMOKED LAGER
+  :abv: 6.0
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 168.0
+  :brewery: TROU DU DIABLE
+  :name: MACTAVISH
+  :style: AMERICAN PALE ALE
+  :abv: 5.0
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 169.0
+  :brewery: TROU DU DIABLE
+  :name: SANG-D'ENCRE
+  :style: IRISH STOUT
+  :abv: 5.5
+  :session: 1.0
+- :region: QUEBEC (#126-171)
+  :cask: 170.0
+  :brewery: TROU DU DIABLE
+  :name: LORD BARLOW
+  :style: MILD
+  :abv: 4.1
+  :session: 2.0
+- :region: QUEBEC (#126-171)
+  :cask: 171.0
+  :brewery: TROU DU DIABLE
+  :name: RUBIS RED
+  :style: IRISH RED ALE
+  :abv: 6.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 172.0
+  :brewery: AMSTERDAM *
+  :name: EL JAGUAR
+  :style: BARREL-AGED IMPERIAL STOUT W/ CHOCOLATE & CHERRIES
+  :abv: 14.5
+  :session: 2.0
+- :region: ONTARIO (#172-280)
+  :cask: 173.0
+  :brewery: AMSTERDAM *
+  :name: FULL CITY DOUBLE TEMPEST
+  :style: BARREL-AGED IMPERIAL STOUT W/ HAWAIIAN KONA COFFEE
+  :abv: 14.5
+  :session: 2.0
+- :region: ONTARIO (#172-280)
+  :cask: 174.0
+  :brewery: AMSTERDAM
+  :name: VICARS VICE
+  :style: OLDE ALE AGED ON PLUMS
+  :abv: 8.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 175.0
+  :brewery: AMSTERDAM
+  :name: 18 HANDS
+  :style: RUSTIC PALE ALE
+  :abv: 5.4
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 176.0
+  :brewery: AMSTERDAM
+  :name: TESTIFY
+  :style: BRETT PALE ALE
+  :abv: 6.0
+  :session: 3.0
+- :region: ONTARIO (#172-280)
+  :cask: 177.0
+  :brewery: BARLEY DAYS
+  :name: YULETIDE CHERRY PORTER
+  :style: LONDON PORTOR W/ ONTARIO CHERRIES
+  :abv: 5.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 178.0
+  :brewery: BARLEY DAYS
+  :name: SCRIMSHAW OYSTER STOUT
+  :style: 'DRY IRISH STOUT '
+  :abv: 4.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 179.0
+  :brewery: BARLEY DAYS
+  :name: WIND & SAIL
+  :style: ENGLISH DARK ALE
+  :abv: 5.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 180.0
+  :brewery: BARNSTORMER
+  :name: COCKY CAPTAIN
+  :style: AMERCIAN STRONG ALE W/ BOURBON SOAKED VANILLA BEAN
+  :abv: 7.5
+  :session: 3.0
+- :region: ONTARIO (#172-280)
+  :cask: 181.0
+  :brewery: BARNSTORMER
+  :name: CAPTAIN T-BAG
+  :style: SASION W/ EARL GREY TEA
+  :abv: 7.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 182.0
+  :brewery: BARNSTORMER *
+  :name: BUSH KNIFE
+  :style: BREAKFAST STOUT
+  :abv: 8.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 183.0
+  :brewery: BEAU'S ALL NATURAL
+  :name: NIGHT MARZEN
+  :style: MARZEN
+  :abv: 5.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 184.0
+  :brewery: BEAU'S ALL NATURAL
+  :name: THE TOM GREEN BEER
+  :style: ri
+  :abv: 5.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 185.0
+  :brewery: BEAU'S ALL NATURAL
+  :name: WINTERBREWED
+  :style: COFFEE AMBER
+  :abv: 6.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 186.0
+  :brewery: BEAU'S ALL NATURAL
+  :name: BURNT ROCK
+  :style: VANILLA PORTER
+  :abv: 4.9
+  :session: 2.0
+- :region: ONTARIO (#172-280)
+  :cask: 187.0
+  :brewery: BEAU'S ALL NATURAL
+  :name: 'B-SIDE BREWING: KISSMEYER BEER'
+  :style: NORDIC PALE ALE
+  :abv: 5.6
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 188.0
+  :brewery: BEER ACADEMY
+  :name: PEPE LE PEW
+  :style: RAUCHBIER W/ FRENCH OAK
+  :abv: 6.3
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 189.0
+  :brewery: BEER ACADEMY
+  :name: BEEP! BEEP!
+  :style: PUMPKIN MARZEN W/ SPICES
+  :abv: 5.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 190.0
+  :brewery: BEER ACADEMY *
+  :name: FOGHORN LEGHORN
+  :style: IMPERIAL STOUT W/ COCOA NIBS & PEANUTS
+  :abv: 9.3
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 191.0
+  :brewery: BEER ACADEMY *
+  :name: I TAWT I TAW A PUDDY TAT
+  :style: QUADRUPEL W/ VANILLA BEANS
+  :abv: 9.9
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 192.0
+  :brewery: BELLWOODS
+  :name: FARMAGEDDON
+  :style: BRETT-BARREL AGED SAISON W/ RED CURRENTS
+  :abv: 7.2
+  :session: 2.0
+- :region: ONTARIO (#172-280)
+  :cask: 193.0
+  :brewery: BELLWOODS *
+  :name: SKELETON KEY
+  :style: SPICED IMPERIAL STOUT AGED IN RUM BARRELS
+  :abv: 14.5
+  :session: 3.0
+- :region: ONTARIO (#172-280)
+  :cask: 194.0
+  :brewery: BELLWOODS
+  :name: 'BARREL #119'
+  :style: BRETT BARREL-AGED SOUR ALE
+  :abv: 8.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 195.0
+  :brewery: BEYOND THE PALE
+  :name: THE MULLET
+  :style: BELGIAN IPA
+  :abv: 5.8
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 196.0
+  :brewery: BEYOND THE PALE
+  :name: PINK FUZZ
+  :style: 'GRAPEFRUIT WHEAT '
+  :abv: 6.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 197.0
+  :brewery: BIG RIG
+  :name: RELEASE THE HOUNDS
+  :style: BLACK IPA
+  :abv: 6.2
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 198.0
+  :brewery: BLACK OAK
+  :name: BLACK OUT
+  :style: COFFEE STOUT
+  :abv: 5.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 199.0
+  :brewery: BLACK OAK
+  :name: LOVE FUZZ
+  :style: RED ALE
+  :abv: 5.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 200.0
+  :brewery: BLOCK 3
+  :name: THE HUNT FOR SOURED OCTOBER
+  :style: FLANDERS RED
+  :abv: 7.1
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 201.0
+  :brewery: BOSHKUNG
+  :name: BLACK ROCK
+  :style: DARK ALE
+  :abv: 5.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 202.0
+  :brewery: BROADHEAD
+  :name: MOMMY KISSING SANTA CLAUSE
+  :style: MINT STOUT
+  :abv: 5.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 203.0
+  :brewery: CAMERON'S
+  :name: KITSUNE
+  :style: JAPANENSE SUSHI RICE IPA
+  :abv: 7.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 204.0
+  :brewery: CAMERON'S
+  :name: TO CATCH A BRETTATOR
+  :style: 100% BRETT IPA
+  :abv: 6.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 205.0
+  :brewery: CHESHIRE VALLEY
+  :name: BIG BANG GALAXY
+  :style: PALE ALE
+  :abv: 5.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 206.0
+  :brewery: CLOCKTOWER
+  :name: CLOCKTOWER PUMPKIN
+  :style: PUMPKIN ALE
+  :abv: 5.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 207.0
+  :brewery: COLLECTIVE ARTS
+  :name: STATE OF MIND
+  :style: SESSION IPA
+  :abv: 4.2
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 208.0
+  :brewery: 'CREEMORE SPRINGS '
+  :name: WHAT'S UP DOC
+  :style: SPICED MAPLE PORTER
+  :abv: 5.2
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 209.0
+  :brewery: DURHAM
+  :name: RED DRAGON
+  :style: IRISH RED ALE
+  :abv: 5.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 210.0
+  :brewery: F&M
+  :name: BOB'S YOUR DUNKEL
+  :style: DARK LAGER
+  :abv: 5.3
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 211.0
+  :brewery: FLYING MONKEYS *
+  :name: PETER PUMPKIN EATER
+  :style: SEASONAL SPICED VEGETABLE ALE
+  :abv: 10.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 212.0
+  :brewery: FLYING MONKEYS *
+  :name: DRUNK BY CHOCOLATE
+  :style: BOURBON BARREL AGED CHOCLATE MILK STOUT
+  :abv: 10.0
+  :session: 2.0
+- :region: ONTARIO (#172-280)
+  :cask: 213.0
+  :brewery: FLYING MONKEYS *
+  :name: MUSCLES FROM BRUSSELS
+  :style: BELGIUM DOUBLE IPA
+  :abv: 10.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 214.0
+  :brewery: FORKED RIVER
+  :name: MARBLE RYE PALE ALE
+  :style: AMERICAN PALE ALE
+  :abv: 5.3
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 215.0
+  :brewery: FORKED RIVER
+  :name: KING OF THE WHO ESB
+  :style: EXTRA SPECIAL BITTER
+  :abv: 5.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 216.0
+  :brewery: FORKED RIVER
+  :name: FULL CITY PORTER
+  :style: COFFEE PORTER
+  :abv: 5.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 217.0
+  :brewery: GETWELL X INNOCENTE
+  :name: WASABI CHOCOLATE PORTER
+  :style: ROBUST PORTER
+  :abv: 6.2
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 218.0
+  :brewery: GRANITE
+  :name: KEEFE'S IRISH STOUT
+  :style: IRISH STOUT
+  :abv: 4.3
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 219.0
+  :brewery: GRANITE
+  :name: CRAZY LEGS
+  :style: BROWN ALE W/ ONTARIO PEACHES
+  :abv: 5.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 220.0
+  :brewery: GRANITE
+  :name: HARVEST
+  :style: HARVEST ALE
+  :abv: 6.7
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 221.0
+  :brewery: GRANITE
+  :name: PUMPKIN JACK FLASH
+  :style: PUMPKIN ALE
+  :abv: 6.2
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 222.0
+  :brewery: GREAT LAKES
+  :name: PUMPKIN WOUND
+  :style: PUMPKIN PORTER
+  :abv: 6.0
+  :session: 3.0
+- :region: ONTARIO (#172-280)
+  :cask: 223.0
+  :brewery: GREAT LAKES X BAR HOP
+  :name: 'HANLAN''S POINT '
+  :style: COCONUT AND COFFEE PORTER
+  :abv: 6.5
+  :session: 2.0
+- :region: ONTARIO (#172-280)
+  :cask: 224.0
+  :brewery: GREAT LAKES X BAR HOP
+  :name: SWEET ZOMBIE JESUS
+  :style: PEANUT BUTTER MILK STOUT
+  :abv: 5.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 225.0
+  :brewery: HOCKLEY VALLEY
+  :name: HEAVENLY HASH DARK ALE
+  :style: MILD BROWN ALE
+  :abv: 5.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 226.0
+  :brewery: HOUSE  ALES X IN THE WEEDS TV
+  :name: HOUSE IN THE WOODS
+  :style: ROBUST PORTER W/ WILD GINGER
+  :abv: 5.5
+  :session: 2.0
+- :region: ONTARIO (#172-280)
+  :cask: 227.0
+  :brewery: HOUSE ALES *
+  :name: SWAG OUT STOUT
+  :style: IMPERIAL STOUT
+  :abv: 9.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 228.0
+  :brewery: HOUSE ALES
+  :name: MEZZA NOTTE
+  :style: MILK STOUT
+  :abv: 6.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 229.0
+  :brewery: HOUSE ALES *
+  :name: 25 YEAR ANNIVERSARY ALE
+  :style: AMERCIAN BARLEY WINE
+  :abv: 12.0
+  :session: 2.0
+- :region: ONTARIO (#172-280)
+  :cask: 230.0
+  :brewery: HOUSE ALES
+  :name: FERMIUM
+  :style: BLACK IPA
+  :abv: 6.5
+  :session: 2.0
+- :region: ONTARIO (#172-280)
+  :cask: 231.0
+  :brewery: INDIE ALEHOUSE *
+  :name: GLORY & CONSEQUENCES
+  :style: BARREL AGED BELGIAN DUBBEL
+  :abv: 8.0
+  :session: 3.0
+- :region: ONTARIO (#172-280)
+  :cask: 232.0
+  :brewery: INDIE ALEHOUSE
+  :name: STRAWBERRY IPA
+  :style: AMERICAN IPA
+  :abv: 6.5
+  :session: 2.0
+- :region: ONTARIO (#172-280)
+  :cask: 233.0
+  :brewery: INDIE ALEHOUSE *
+  :name: COCKPUNCHER
+  :style: DOUBLE IPA
+  :abv: 10.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 234.0
+  :brewery: INNOCENTE
+  :name: DARKSIDE OF THE GOURD
+  :style: BLACK PUMPKIN SAISON
+  :abv: 7.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 235.0
+  :brewery: INNOCENTE
+  :name: 'CHOCOLATE RAIN '
+  :style: CHOCOLATE & PEANUT BUTTER OATMEAL STOUT
+  :abv: 7.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 236.0
+  :brewery: INNOCENTE
+  :name: 'NO MARZEN FOR EROR '
+  :style: 'MARZEN '
+  :abv: 4.3
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 237.0
+  :brewery: INNOCENTE *
+  :name: 'UNTIL PROVEN GUILTY '
+  :style: RUSSIAN IMPERIAL STOUT
+  :abv: 11.9
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 238.0
+  :brewery: JUNCTION CRAFT
+  :name: PUMUKL
+  :style: RED ALE
+  :abv: 4.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 239.0
+  :brewery: JUNCTION CRAFT
+  :name: SUPERCHIEF
+  :style: PALE ALE
+  :abv: 5.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 240.0
+  :brewery: JUNCTION CRAFT
+  :name: DARK MATTER
+  :style: CASCADIAN ALE
+  :abv: 6.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 241.0
+  :brewery: JUNCTION CRAFT
+  :name: HOPFENSTOPFER
+  :style: DRY-HOPPED INDIA PALE ALE
+  :abv: 5.7
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 242.0
+  :brewery: JUNCTION CRAFT X GTA BREWS
+  :name: CHOCOLATE ORANGE PORTER
+  :style: ROBUST PORTER W/ ORANGE ZEST & COCOA POWDER
+  :abv: 5.6
+  :session: 2.0
+- :region: ONTARIO (#172-280)
+  :cask: 243.0
+  :brewery: 'KENSINGTON '
+  :name: BLACK BART
+  :style: PORTER W/ STAR ANISE
+  :abv: 5.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 244.0
+  :brewery: LEFT FIELD
+  :name: EEPHUS
+  :style: OATMEAL BROWN ALE
+  :abv: 5.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 245.0
+  :brewery: LIBERTY VILLAGE *
+  :name: DOUBLE GUMMI BEER
+  :style: DOUBLE APA
+  :abv: 8.2
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 246.0
+  :brewery: LIBERTY VILLAGE
+  :name: EXODUS
+  :style: BLACK ALE W/ GINGER
+  :abv: 7.4
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 247.0
+  :brewery: LIBERTY VILLAGE X TORONTO BREWING *
+  :name: BRETT ON THE BEACH
+  :style: PINA COLADA BRETT IPA
+  :abv: 8.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 248.0
+  :brewery: MACLEAN'S
+  :name: " PALE ALE"
+  :style: ENGLISH PALE ALE
+  :abv: 5.2
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 249.0
+  :brewery: MACLEAN'S
+  :name: FARMHOUSE BLOND
+  :style: GOLDEN ALE
+  :abv: 4.8
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 250.0
+  :brewery: MAGNOTTA
+  :name: BLUEBERRY WEIZEN
+  :style: HEFEWEIZEN W/ FRUIT
+  :abv: 4.6
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 251.0
+  :brewery: MANANTLER
+  :name: PURSUIT OF ABBEYNESS
+  :style: ENGLISH BITTER W/ BELIGAN YEAST
+  :abv: 6.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 252.0
+  :brewery: MILL ST.
+  :name: TANKENSTEIN
+  :style: AMERICAN PALE ALE
+  :abv: 5.2
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 253.0
+  :brewery: MUSKOKA
+  :name: SCOTTISH INDEPENDENCE
+  :style: OAK AGED WEE HEAVY
+  :abv: 7.2
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 254.0
+  :brewery: MUSKOKA
+  :name: WILDFIRE IPA
+  :style: AMERICAN IPA W/ WILD ONTARIO HOPS
+  :abv: 5.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 255.0
+  :brewery: MUSKOKA
+  :name: SMOKEY & THE BANDIT
+  :style: SMOKED RYE ALE
+  :abv: 6.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 256.0
+  :brewery: MUSKOKA
+  :name: BUH-DUNK-UH-DUNK
+  :style: SOUR WHEAT ALE W/ CRANBERRY
+  :abv: 6.5
+  :session: 2.0
+- :region: ONTARIO (#172-280)
+  :cask: 257.0
+  :brewery: MUSKOKA *
+  :name: RUM BARREL AGED HARVEST ALE
+  :style: BARREL AGED AMERICAN PALE ALE
+  :abv: 8.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 258.0
+  :brewery: NIAGARA OAST!
+  :name: SMOKIN`RYE-DER
+  :style: SMOKED BEER
+  :abv: 5.3
+  :session: 2.0
+- :region: ONTARIO (#172-280)
+  :cask: 259.0
+  :brewery: NIAGARA OAST!
+  :name: PURPLE DRANK
+  :style: FRUIT BEER
+  :abv: 6.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 260.0
+  :brewery: NIAGARA OAST! *
+  :name: "#HUMBLEBRAG "
+  :style: BELGIAN TRIPLE
+  :abv: 8.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 261.0
+  :brewery: NICKELBROOK
+  :name: PISSED OFF PETE PUMPKIN PORTER
+  :style: PUMPKIN PORTER
+  :abv: 6.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 262.0
+  :brewery: NICKELBROOK
+  :name: KENTUCKY SOUR
+  :style: BOURBON-BARREL AGED SOUR AMBER ALE
+  :abv: 7.0
+  :session: 2.0
+- :region: ONTARIO (#172-280)
+  :cask: 263.0
+  :brewery: NICKELBROOK X SAWDUSTCITY *
+  :name: 'THE 2014"11.04" '
+  :style: TRIPLE IPA
+  :abv: 11.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 264.0
+  :brewery: NORTH WINDS
+  :name: OLD SMOKEY
+  :style: GRÄTZER
+  :abv: 3.3
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 265.0
+  :brewery: ONTARIO BEER COMPANY
+  :name: 100 MILE ALE
+  :style: DRY HOPPED AMBER ALE
+  :abv: 5.4
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 266.0
+  :brewery: RAINHARD
+  :name: ARMED N CITRA
+  :style: AMERICAN PALE ALE
+  :abv: 5.4
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 267.0
+  :brewery: SAWDUSTCITY *
+  :name: BLOOD OF CTHULHU
+  :style: IMPERIAL STOUT W/ CRAN/RASP/CHERRY
+  :abv: 9.5
+  :session: 2.0
+- :region: ONTARIO (#172-280)
+  :cask: 268.0
+  :brewery: SAWDUSTCITY
+  :name: THE PRINCESS WEARS KOMBUCHA PANTS
+  :style: BARREL-AGED BELGIAN GOLDEN ALE W/ KOMBUCHA
+  :abv: 7.5
+  :session: 2.0
+- :region: ONTARIO (#172-280)
+  :cask: 269.0
+  :brewery: SAWDUSTCITY
+  :name: DAWSON KRIEK
+  :style: SOUR ALT W/ TART CHERRIES
+  :abv: 3.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 270.0
+  :brewery: 'SHACKLANDS '
+  :name: FARMHOUSE IPA
+  :style: HYBRID BELGIA IPA
+  :abv: 7.3
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 271.0
+  :brewery: 'SHACKLANDS X JORDAN ST.JOHN '
+  :name: ROUILLE
+  :style: SPRUCE-FLAVORED ALE W/ BRETT
+  :abv: 5.3
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 272.0
+  :brewery: SILVERSMITH X GANANOQUE
+  :name: DOWN GOES BROWN NUT BROWN ALE
+  :style: NUT BROWN ALE
+  :abv: 5.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 273.0
+  :brewery: SNOWMAN
+  :name: HOP HAT
+  :style: DRY-HOPPED ENGLISH AMBER ALE
+  :abv: 4.7
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 274.0
+  :brewery: SNOWMAN
+  :name: POP HAT
+  :style: ENGLISH AMBER ALE SHANDY
+  :abv: 4.7
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 275.0
+  :brewery: SNOWMAN
+  :name: DR. NEPTUNE'S DELICIOUS ELIXIR
+  :style: SPICED BELGIAN IPA
+  :abv: 6.7
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 276.0
+  :brewery: SPEARHEAD
+  :name: STARDUST SAISON
+  :style: BELGIAN SAISON
+  :abv: 4.7
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 277.0
+  :brewery: SPEARHEAD
+  :name: HEART OF DARKNESS
+  :style: DARK ALE
+  :abv: 6.5
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 278.0
+  :brewery: SPEARHEAD
+  :name: HOLY OAK(ED) BELGIAN STOUT
+  :style: STOUT
+  :abv: 6.0
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 279.0
+  :brewery: COLLINGWOOD
+  :name: AZAFRAN
+  :style: BLONDE ALE W/ SAFFRON
+  :abv: 4.2
+  :session: 1.0
+- :region: ONTARIO (#172-280)
+  :cask: 280.0
+  :brewery: WELLINGTON
+  :name: PUT YOUR DUKES UP!
+  :style: BOURBON BARREL-AGED STRONG ALE
+  :abv: 6.5
+  :session: 1.0
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 281.0
+  :brewery: 'AMSTERDAM '
+  :name: BAD LIFE DECISIONS
+  :style: AMERICAN IPA
+  :abv: 7.1
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 282.0
+  :brewery: 'BARNSTORMER '
+  :name: FLY PA
+  :style: AMERICAN IPA
+  :abv: 6.5
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 283.0
+  :brewery: 'BELLWOODS '
+  :name: ROMAN CANDLE
+  :style: AMERICAN IPA
+  :abv: 6.1
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 284.0
+  :brewery: BENELUX
+  :name: CUDA
+  :style: AMERICAN IPA
+  :abv: 6.5
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 285.0
+  :brewery: 'BIG RIG '
+  :name: BIG RIG IPA
+  :style: AMERICAN IPA
+  :abv: 6.2
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 286.0
+  :brewery: 'BLACK OAK '
+  :name: MINOTAUR
+  :style: AMERICAN IPA
+  :abv: 6.0
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 287.0
+  :brewery: BRASSEURS DU MONDE
+  :name: HOUBLONNIÈRE
+  :style: AMERICAN IPA
+  :abv: 5.2
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 288.0
+  :brewery: 'CAMERON''S '
+  :name: 'KITSUNE '
+  :style: AMERCIAN IPA
+  :abv: 7.0
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 289.0
+  :brewery: 'CENTRAL CITY '
+  :name: 'RED RACER DOUBLE DRY HOPPED '
+  :style: AMERICAN IPA
+  :abv: 6.0
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 290.0
+  :brewery: 'CLOCKTOWER '
+  :name: TONGUE CUTTER
+  :style: AMERCIAN IPA
+  :abv: 5.5
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 291.0
+  :brewery: DIEU DU CIEL!
+  :name: MORALITÉ EXTRA SIMCOE
+  :style: AMERICAN IPA
+  :abv: 6.9
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 292.0
+  :brewery: 'F&M '
+  :name: 'STONEHAMMER '
+  :style: AMERCIAN IPA
+  :abv: 7.0
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 293.0
+  :brewery: FLYING MONKEYS
+  :name: MILLENNIUM FALCON
+  :style: AMERCIAN IPA
+  :abv: 7.0
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 294.0
+  :brewery: 'FORKED RIVER '
+  :name: 'LORD SIMCOE REVENGE '
+  :style: AMERICAN IPA
+  :abv: 7.0
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 295.0
+  :brewery: 'GET WELL '
+  :name: PERSONALITY CRISIS
+  :style: AMERICAN IPA
+  :abv: 6.5
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 296.0
+  :brewery: 'GRANITE '
+  :name: HOPPING MAD
+  :style: AMERICAN IPA
+  :abv: 55.0
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 297.0
+  :brewery: 'GREAT LAKES '
+  :name: LAKE EFFECT
+  :style: AMERICAN IPA
+  :abv: 6.5
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 298.0
+  :brewery: GREG NASH
+  :name: NASHBOMB
+  :style: AMERICAN IPA
+  :abv: 7.1
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 299.0
+  :brewery: HOPFENSTARK
+  :name: 'POST COLONIAL '
+  :style: AMERICAN IPA
+  :abv: 6.0
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 300.0
+  :brewery: HOUSE ALES
+  :name: 'WEST SIDE '
+  :style: AMERICAN IPA
+  :abv: 6.5
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 301.0
+  :brewery: INDIE ALEHOUSE
+  :name: 'INSTIGATOR '
+  :style: AMERICAN IPA
+  :abv: 6.5
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 302.0
+  :brewery: 'INNOCENTE '
+  :name: 'CONSCIENCE '
+  :style: AMERICAN IPA
+  :abv: 5.7
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 303.0
+  :brewery: 'JUNCTION CRAFT '
+  :name: 'ENGINEER '
+  :style: ENGLISH/AMERICAN IPA
+  :abv: 6.2
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 304.0
+  :brewery: 'KENSINGTON '
+  :name: THREE POINT OH
+  :style: AMERICAN IPA
+  :abv: 6.5
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 305.0
+  :brewery: LE CASTOR
+  :name: YAKIMA
+  :style: AMERICAN IPA
+  :abv: 6.5
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 306.0
+  :brewery: 'LEFT FIELD '
+  :name: 'PROSPECT: AMARILLO'
+  :style: INDIA PALE ALE
+  :abv: 6.3
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 307.0
+  :brewery: 'LONG SLICE '
+  :name: HOPSTA LA VISTA
+  :style: ENGLISH/AMERICAN IPA
+  :abv: 6.5
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 308.0
+  :brewery: MACLEAN'S
+  :name: MACLEAN'S INDIA PALE ALE
+  :style: AMERICAN IPA
+  :abv: 6.2
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 309.0
+  :brewery: MILL ST.
+  :name: 'PARADISE '
+  :style: AMERICAN IPA
+  :abv: 7.5
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 310.0
+  :brewery: 'NICKELBROOK '
+  :name: AEQUUS NEX
+  :style: AMERICAN IPA
+  :abv: 6.6
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 311.0
+  :brewery: 'PARALLEL 49 '
+  :name: 'DRY HOPPED FILTHY DIRTY '
+  :style: AMERICAN IPA
+  :abv: 6.5
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 312.0
+  :brewery: 'PROPELLER '
+  :name: 'DRY HOPPED '
+  :style: AMERCIAN IPA
+  :abv: 6.5
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 313.0
+  :brewery: 'RAINHARD '
+  :name: LAZY BONES
+  :style: AMERICAN IPA
+  :abv: 6.5
+  :session: ALL
+- :region: IPA CHALLENGE (#281-314)
+  :cask: 314.0
+  :brewery: TROU DU DIABLE
+  :name: MORSURE
+  :style: AMERICAN IPA
+  :abv: 6.5
+  :session: ALL
+- :region: CIDER (#315-336)
+  :cask: 315.0
+  :brewery: APPLEWOOD FARM WINERY *
+  :name: BAVARIAN WEISS
+  :style: BAVARIAN WEISS STYLE HOPPED CIDER
+  :abv: 5.0
+  :session: 1.0
+- :region: CIDER (#315-336)
+  :cask: 316.0
+  :brewery: BEAVER VALLEY  ORCHARD & CIDERY *
+  :name: FLAGSHIP
+  :style: ENGLISH ULTRA DRY
+  :abv: 7.5
+  :session: 1.0
+- :region: CIDER (#315-336)
+  :cask: 317.0
+  :brewery: BEAVER VALLEY  ORCHARD & CIDERY *
+  :name: CEYLON CYDER
+  :style: SPICED INFUSED HARD CIDER
+  :abv: 7.5
+  :session: 1.0
+- :region: CIDER (#315-336)
+  :cask: 318.0
+  :brewery: 'BULWARK '
+  :name: TRADITIONAL CRAFT CIDER
+  :style: DRY-HOPPED CIDER
+  :abv: 5.8
+  :session: 1.0
+- :region: CIDER (#315-336)
+  :cask: 319.0
+  :brewery: BULWARK
+  :name: TRADITIONAL CRAFT CIDER
+  :style: DRY CIDER
+  :abv: 5.8
+  :session: 1.0
+- :region: CIDER (#315-336)
+  :cask: 320.0
+  :brewery: COUNTY CIDER *
+  :name: A TORTURED PATH CIDER
+  :style: ENGLISH DRY CIDER
+  :abv: 7.0
+  :session: 1.0
+- :region: CIDER (#315-336)
+  :cask: 321.0
+  :brewery: LES VERGERS DE LA COLLINE *
+  :name: API-HOP
+  :style: DRY HOPPED MACINTOSH/SPARTAN CIDER
+  :abv: 7.0
+  :session: 1.0
+- :region: CIDER (#315-336)
+  :cask: 322.0
+  :brewery: LES VERGERS DE LA COLLINE *
+  :name: CUIVRÉ FÛT DE CHÊNE
+  :style: AMERICAN OAK BARREL-AGED HARD CIDER
+  :abv: 10.0
+  :session: 1.0
+- :region: CIDER (#315-336)
+  :cask: 323.0
+  :brewery: LES VERGERS DE LA COLLINE *
+  :name: HONEY CRISP
+  :style: CRAPABBLE CIDER (DOLGO) BARREL-AGED W/ BRETT
+  :abv: 7.0
+  :session: 2.0
+- :region: CIDER (#315-336)
+  :cask: 324.0
+  :brewery: POMMIES *
+  :name: OLE!
+  :style: CINNAMON TEQUILA SPIKED CIDER
+  :abv: 7.0
+  :session: 1.0
+- :region: CIDER (#315-336)
+  :cask: 325.0
+  :brewery: POMMIES *
+  :name: HOPPED CIDER
+  :style: HOPPED CIDER
+  :abv: 6.3
+  :session: 1.0
+- :region: CIDER (#315-336)
+  :cask: 326.0
+  :brewery: SMALL TALK VINEYARDS *
+  :name: SHINY APPLE
+  :style: CABNERT ICEWINE
+  :abv: 7.0
+  :session: 1.0
+- :region: CIDER (#315-336)
+  :cask: 327.0
+  :brewery: SPIRIT TREE *
+  :name: APFELWEIN
+  :style: GERMAN STYLE CIDER
+  :abv: 6.0
+  :session: 1.0
+- :region: CIDER (#315-336)
+  :cask: 328.0
+  :brewery: SPIRIT TREE *
+  :name: BITTERS & SPITTERS
+  :style: DRY HOPPED APPLE CIDER
+  :abv: 8.0
+  :session: 1.0
+- :region: CIDER (#315-336)
+  :cask: 329.0
+  :brewery: SPIRIT TREE *
+  :name: LAVENDER PEAR
+  :style: 'DRY PEAR CIDER INFUSED W/ LAVENDER '
+  :abv: 6.0
+  :session: 2.0
+- :region: CIDER (#315-336)
+  :cask: 330.0
+  :brewery: SPIRIT TREE *
+  :name: CRAB APPLE SQUARED
+  :style: BLEND OF DOLGO & CHESNUT CRABAPPLES
+  :abv: 7.0
+  :session: 3.0
+- :region: CIDER (#315-336)
+  :cask: 331.0
+  :brewery: SUNNYBROOK WINE *
+  :name: SCREAMIN` PEACH IN CASK
+  :style: ORIGINAL CIDER W/ PEACHES
+  :abv: 7.0
+  :session: 1.0
+- :region: CIDER (#315-336)
+  :cask: 332.0
+  :brewery: WEST AVENUE *
+  :name: CHERRY BEACH
+  :style: BARREL AGED SOUR CHERRY CIDER W/  LACTO
+  :abv: 7.5
+  :session: 2.0
+- :region: CIDER (#315-336)
+  :cask: 333.0
+  :brewery: WEST AVENUE  *
+  :name: BARRETT FULLER'S SECRET
+  :style: BOURBON BARREL-AGED
+  :abv: 9.0
+  :session: 1.0
+- :region: CIDER (#315-336)
+  :cask: 334.0
+  :brewery: WEST AVENUE *
+  :name: BLUEBERRY SCRUMPY
+  :style: FARMHOUSE CIDER
+  :abv: 6.2
+  :session: 2.0
+- :region: CIDER (#315-336)
+  :cask: 335.0
+  :brewery: WEST AVENUE *
+  :name: SCHOOLYARD CRAB
+  :style: BARREL FERMENTED CRAB APPLE
+  :abv: 8.5
+  :session: 1.0
+- :region: CIDER (#315-336)
+  :cask: 336.0
+  :brewery: WEST AVENUE *
+  :name: SMASH ME UP BUTTERNUT
+  :style: PUMPKIN CIDER
+  :abv: 6.5
+  :session: 3.0

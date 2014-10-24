@@ -1,0 +1,13 @@
+<ul class="pricing-table">
+  <li class="title"><%= drink.name %></li>
+  <li class="bullet-item">Cask #<%= drink.cask_number %></li>
+  <li class="bullet-item">ABV <%= drink.abv %>%</li>
+  <li class="bullet-item"><%= drink.style %></li>
+  <li class="bullet-item"><%= drink.brewery %></li>
+  <li class="bullet-item"><%= drink.region %></li>
+  <li class="cta-button">
+    <%# I know this is shitty %>
+    <%= toggle_favourite(drink.cask) %>
+    <%= toggle_consumed(drink.cask) %>
+  </li>
+</ul>

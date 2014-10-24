@@ -1,0 +1,4 @@
+<%= form_tag drinks_path(return: true), method: 'post' do %>
+  <%= hidden_field_tag 'drink[cask_id]', cask.id %>
+  <%= submit_tag 'Add', class: 'button tiny' %>
+<% end %>
