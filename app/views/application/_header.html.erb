@@ -3,4 +3,8 @@
     <li class="<%= class_for(:drinks)%>"><%= link_to 'Drink List', drinks_path %></li>
     <li class="<%= class_for(:casks) %>"><%= link_to 'Casks', casks_path %></li>
   </ul>
+
+  <ul class="right">
+    <li><%= link_to 'Logout', logout_path, method: 'delete' %></li>
+  </ul>
 </section>
