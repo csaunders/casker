@@ -16,7 +16,7 @@ class DrinksController < ApplicationController
     drink = attendee.drinks.where(cask_id: drink_params[:cask_id]).first_or_initialize
     drink.update_attributes(drink_params)
     flash[:notice] = "Added #{drink.name} by #{drink.brewery} to your list" if drink.save
-    redirect_to(return_path || redirect_to(drink_path(drink)))
+    redirect_to(return_path || drink_path(drink))
   end
 
   def destroy

@@ -1,0 +1,20 @@
+<ul class="pricing-table">
+  <li class="title"><%= cask.name %></li>
+  <li class="bullet-item">Cask #<%= cask.cask %></li>
+  <li class="bullet-item">ABV <%= cask.abv %>%</li>
+  <li class="bullet-item"><%= cask.style %></li>
+  <li class="bullet-item"><%= cask.brewery %></li>
+  <li class="bullet-item"><%= cask.region %></li>
+  <li class="cta-button">
+    <% if attendee.listed?(cask) %>
+      <%= toggle_favourite(cask) %>
+      <%= toggle_consumed(cask) %>
+    <% else %>
+      <%= form_tag drinks_path, method: 'post' do %>
+        <%= hidden_field_tag 'return', true if return_to %>
+        <%= hidden_field_tag 'drink[cask_id]', cask.id %>
+        <%= submit_tag 'Add to Drink List', class: 'button' %>
+      <% end %>
+    <% end %>
+  </li>
+</ul>

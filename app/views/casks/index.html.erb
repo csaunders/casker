@@ -1,16 +1,28 @@
-<dl class="sub-nav">
-  <dt>Filter by Region:</dt>
-  <% if params[:region].present? %>
-    <dd><%= link_to 'Clear Filter', casks_path %></dd>
-  <% end %>
-  <% Cask::Sections.each do |name, query| %>
-    <dd class="<%= 'active' if params[:region] == query %>">
-      <%= link_to name, casks_path(region: query) %>
-    </dd>
-  <% end %>
-</dl>
-
 <div class="row">
+  <div class="large-12 columns">
+    <dl class="sub-nav">
+      <dt>Filter by Region:</dt>
+      <% if params[:region].present? %>
+        <dd><%= link_to 'Clear Filter', casks_path %></dd>
+      <% end %>
+      <% Cask::Sections.each do |name, query| %>
+        <dd class="<%= 'active' if params[:region] == query %>">
+          <%= link_to name, casks_path(region: query) %>
+        </dd>
+      <% end %>
+    </dl>
+  </div>
+</div>
+
+<% @casks.each do |c| %>
+  <div class="row show-for-small-only">
+    <div class="large-8 large-offset-2 columns">
+      <%= render partial: 'cask', locals: {cask: c, return_to: true } %>
+    </div>
+  </div>
+<% end %>
+
+<div class="row hide-for-small-only">
   <div class="large-centered columns">
     <table>
       <thead>
