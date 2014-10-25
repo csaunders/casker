@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   post 'login', to: 'welcome#login', as: 'login'
   delete 'logout', to: 'welcome#logout', as: 'logout'
+  match 'ghetto', via: [:get, :post], to: 'welcome#ghetto', as: 'ghetto'
 
   resources 'drinks' do
     member do

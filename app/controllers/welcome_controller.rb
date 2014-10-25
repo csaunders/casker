@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
-  skip_before_action :check_logged_in, only: [:index, :login]
+  skip_before_action :check_logged_in, only: [:index, :login, :ghetto]
 
   def index
     redirect_to drinks_path if attendee
@@ -19,6 +19,13 @@ class WelcomeController < ApplicationController
 
       flash[:notice] = "Thank you for using Casker"
       redirect_to root_path
+    end
+  end
+
+  def ghetto
+    if request.post? && Attendee.find_by(id: params[:id])
+      set_session(params[:id])
+      redirect_to root_url
     end
   end
 end

@@ -1,0 +1,16 @@
+<% if logged_in? %>
+  <div class="row text-center">
+    <h1>User ID: <%= attendee.id %></h1>
+  </div>
+<% else %>
+  <div class="row text-center">
+    <h1>Session Recovery lolz</h1>
+  </div>
+
+  <div class="row">
+    <%= form_tag ghetto_path, method: 'post' do %>
+      <%= text_field_tag 'id' %>
+      <%= submit_tag 'Recover Session', class: 'button' %>
+    <% end %>
+  </div>
+<% end %>
