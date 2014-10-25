@@ -14,10 +14,10 @@
   </div>
 </div>
 
-<% @casks.each do |c| %>
+<% @casks.each do |cask| %>
   <div class="row show-for-small-only">
     <div class="large-8 large-offset-2 columns">
-      <%= render partial: 'cask', locals: {cask: c, return_to: true } %>
+      <%= render partial: 'cask', locals: {cask: cask, return_to: true } %>
     </div>
   </div>
 <% end %>

@@ -10,5 +10,9 @@ class Drink < ActiveRecord::Base
     cask.cask
   end
 
+  def state
+    "#{'fave' if favourite?}#{'done' if done?}"
+  end
+
   paginates_per 50
 end

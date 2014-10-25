@@ -12,7 +12,7 @@ class Attendee < ActiveRecord::Base
   end
 
   def listed?(cask)
-    drinks.find_by(cask_id: cask.id).present?
+    find_drink_for(cask).persisted?
   end
 
   def to_consume?(cask)
@@ -20,6 +20,15 @@ class Attendee < ActiveRecord::Base
   end
 
   def find_drink_for(cask)
-    drinks.find_by(cask_id: cask.id) || Drink.new
+    drinks_cache[cask.id] || Drink.new
+  end
+
+  private
+
+  def drinks_cache
+    @drinks_cache ||= drinks.reduce({}) do |cache, drink|
+      cache[drink.cask_id] = drink
+      cache
+    end
   end
 end

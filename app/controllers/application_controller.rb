@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
   helper_method :logged_in?, :class_for, :attendee
 
   def attendee
-    @attendee ||= Attendee.find_by(id: session[:id])
+    @attendee ||= Attendee.includes(:drinks).where(id: session[:id]).first
   end
 
   def activate(section)

@@ -1,13 +1,25 @@
 <% if @drinks.blank? %>
   <%= render partial: 'no_drinks' %>
 <% else %>
-  <% @drinks.each_slice(2) do |slice| %>
-    <div class="row">
-      <% slice.each do |drink| %>
-        <div class="large-6 columns">
-          <%= render partial: 'drink', object: drink %>
-        </div>
-      <% end %>
+  <% if @incomplete.any? %>
+    <div class="row text-left">
+      <div class="large-4 large-1-offset columns">
+        <h1>To Do</h1>
+      </div>
     </div>
+    <% @incomplete.each_slice(2) do |slice| %>
+      <%= render partial: 'drinks_slice', locals: {slice: slice} %>
+    <% end %>
+  <% end %>
+
+  <% if @complete.any? %>
+    <div class="row text-left">
+      <div class="large-4 large-1-offset columns">
+        <h1>Completed</h1>
+      </div>
+    </div>
+    <% @complete.each_slice(2) do |slice| %>
+      <%= render partial: 'drinks_slice', locals: {slice: slice} %>
+    <% end %>
   <% end %>
 <% end %>

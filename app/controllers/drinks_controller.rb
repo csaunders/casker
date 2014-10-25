@@ -3,6 +3,7 @@ class DrinksController < ApplicationController
 
   def index
     @drinks = attendee.drinks
+    @complete, @incomplete = @drinks.group_by{|d| d.done?}.map{|k, v| v}
   end
 
   def show

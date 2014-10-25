@@ -1,0 +1,7 @@
+<div class="row">
+  <% slice.each do |drink| %>
+    <div class="large-6 columns">
+      <%= render partial: 'drink', object: drink %>
+    </div>
+  <% end %>
+</div>
