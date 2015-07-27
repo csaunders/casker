@@ -18,4 +18,8 @@ module ApplicationHelper
       link_to(msg, toggle_completed_drink_path(drink, return: true), method: 'put', class: 'button')
     end
   end
+
+  def google_client_id
+    Figaro.env.google_client_id
+  end
 end

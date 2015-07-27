@@ -2,52 +2,31 @@ class ApplicationController < ActionController::Base
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
-  before_action :check_logged_in, :ensure_cookie
+  before_action :require_user
 
-  helper_method :logged_in?, :class_for, :attendee
-
-  def attendee
-    @attendee ||= Attendee.includes(:drinks).where(id: session_id).first
+  def logged_in?
+    user.present?
   end
 
-  def activate(section)
-    active[section] = "active"
+  def user
+    @user ||= User.find(session[:user_id]) if session[:user_id]
   end
 
-  def class_for(section)
-    active[section] || ""
-  end
-
-  def return_path
-    request.referrer if params[:return].present?
-  end
-
-  protected
-  def session_id
-    session[:id] || cookies[:id]
-  end
-
-  def set_session(id)
-    session[:id] = id
-    cookies[:id] = id
+  def user=(user)
+    return unless user.persisted?
+    session[:user_id] = user.id
+    @user = user
   end
 
   private
-  def check_logged_in
-    unless attendee
-      redirect_to root_path
-    end
-  end
-
-  def ensure_cookie
-    cookies[:id] = session[:id] if logged_in? && cookies[:id].blank?
-  end
-
-  def logged_in?
-    attendee.present?
-  end
-
-  def active
-    @active ||= {}
+  def require_user
+    return unless user
+    password = SecureRandom.hexdigest
+    self.user = User.create(
+      identifier: SecureRandom.hexdigest,
+      authenticated_by: User::GUEST,
+      password: password,
+      password_confirmation: password
+    )
   end
 end

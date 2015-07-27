@@ -9,41 +9,11 @@
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
     <%= javascript_include_tag "application" %>
+    <%= yield :header %>
     <%= csrf_meta_tags %>
   </head>
 
   <body>
-    <% if logged_in? %>
-      <nav class="top-bar" data-topbar role="navigation">
-
-        <ul class="title-area">
-          <li class="name">
-            <h1><a href="/">Casker</a></h1>
-          </li>
-          <li class="toggle-topbar menu-icon">
-            <a href="#"><span>menu</span></a>
-          </li>
-        </ul>
-
-        <% if content_for?(:header) %>
-          <%= yield(:header) %>
-        <% else %>
-          <%= render partial: 'header' %>
-        <% end %>
-      </nav>
-    <% end %>
-
-    <% if flash[:notice] %>
-      <div class="row">
-        <div class="large-6 large-centered columns text-center">
-          <div class="panel callout radius">
-            <%= flash[:notice] %>
-          </div>
-        </div>
-      </div>
-    <% end %>
-
-
     <%= yield %>
   </body>
 </html>

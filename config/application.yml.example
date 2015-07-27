@@ -9,3 +9,13 @@
 # production:
 #   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
 #   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
+development:
+  facebook_key: nope
+  facebook_secret: nope
+  google_client_secret: nope
+  google_client_secret: nope
+staging:
+  facebook_key: nope
+  facebook_secret: nope
+  google_client_secret: nope
+  google_client_secret: nope
