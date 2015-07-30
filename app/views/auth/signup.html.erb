@@ -1,21 +1,62 @@
-<%= form_for empty_user, url: login_path do |f|%>
-    <fieldset>
-        <legend>Log into Your Account</legend>
+<div class="row">
+    <div class ="small-10 small-offset-1 large-6 large-offset-3">
+    <%= form_for empty_user, url: login_path do |f|%>
+        <fieldset>
+            <legend>Log into your account</legend>
 
-        <%= f.label :identifier, 'Username' do %>
-        <%= f.text_field :identifier %>
-        <% end %>
+            <%= f.label :identifier do %>
+                Username
+                <%= f.text_field :identifier %>
+            <% end %>
 
-        <%= f.label :password do %>
-        <%= f.password_field :password %>
-        <% end %>
+            <%= f.label :password, 'Password' do %>
+                Password
+            <%= f.password_field :password %>
+            <% end %>
 
-        <%= f.submit "Login", class: 'button' %>
-    </fieldset>
-<% end %>
+            <div class="text-right">
+                <%= f.submit "Login", class: 'button success' %>
+            </div>
+        </fieldset>
+    <% end %>
+</div>
 
-<%= link_to '/auth/google_oauth2', class: 'button' do %>
-    <i class="fa fa-google"></i> Log in with Google
-<% end %>
-<%= link_to "Log in With Facebook", '/auth/facebook', class: 'button' %>
+<div class="row">
+    <div class ="small-10 small-offset-1 large-6 large-offset-3">
+    <%= form_for empty_user, url: login_path do |f|%>
+        <fieldset>
+            <legend>Create a new account</legend>
 
+            <%= f.label :identifier do %>
+                Username
+                <%= f.text_field :identifier %>
+            <% end %>
+
+            <%= f.label :password, 'Password' do %>
+                Password
+                <%= f.password_field :password %>
+            <% end %>
+
+            <%= f.label :confirmation do %>
+                Confirm Password
+                <%= f.password_field :confirmation %>
+            <% end %>
+
+            <div class="text-right">
+                <%= f.submit "Login", class: 'button success' %>
+            </div>
+        </fieldset>
+    <% end %>
+    </div>
+</div>
+
+<div class="row">
+    <%= link_to '/auth/google_oauth2', class: 'button small-10 small-offset-1 large-offset-3 large-6 text-center columns' do %>
+        <i class="fa fa-google"></i> Log in with Google
+    <% end %>
+</div>
+<div class="row">
+    <%= link_to '/auth/facebook', class: 'button small-10 small-offset-1 large-offset-3 large-6 text-center columns' do %>
+        <i class="fa fa-facebook"></i> Log in with Facebook
+    <% end %>
+</div>
