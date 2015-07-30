@@ -22,4 +22,9 @@ module ApplicationHelper
   def google_client_id
     Figaro.env.google_client_id
   end
+
+  def empty_user
+    User.new
+  end
+
 end

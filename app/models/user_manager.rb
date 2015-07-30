@@ -1,19 +1,16 @@
 class UserManager
-  def initialize(provider, auth_hash)
+  def initialize(provider, auth_hash, default_user)
     @provider = provider
     @reader = reader_for(provider).new(auth_hash)
+    @default_user = default_user
   end
 
-  def prepare
-    return unless user.new_record?
-    user.update_attributes(
-      name: reader.name,
-      password: reader.password,
-      password_confirmation: reader.password_confirmation
-    )
+  def user
+    @user ||= User.where(authenticated_by: provider, identifier: identifier).first
+    @user ||= @default_user
   end
 
-  def activate(user)
+  def activate
     return unless user.guest?
     user.update_attributes(
       authenticated_by: provider,
@@ -24,12 +21,8 @@ class UserManager
     )
   end
 
-  def user
-    @user ||= User.where(authenticated_by: provider, identifier: identifier).first_or_initialize
-  end
-
   private
-  attr_accessor :reader, :provider
+  attr_accessor :reader, :provider, :default_user
   delegate :identifier, to: :reader
 
   def reader_for(provider)
@@ -37,6 +30,9 @@ class UserManager
     when 'email' then "UserManager::EmailCredentialReader".constantize
     else "UserManager::OAuthCredentialReader".constantize
     end
+  end
+
+  def update_user
   end
 
   class EmailCredentialReader
@@ -64,7 +60,6 @@ class UserManager
   class OAuthCredentialReader
     attr_reader :password, :password_confirmation
     def initialize(auth_hash)
-      puts auth_hash.inspect
       @auth_hash = auth_hash
       @password = @password_confirmation = SecureRandom.hex
     end

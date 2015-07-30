@@ -31,6 +31,7 @@ gem 'pry-byebug',  group: :development
 gem 'puma'
 gem 'kaminari'
 gem 'foundation-rails'
+gem "font-awesome-rails"
 gem 'rails_12factor', group: :production
 gem 'figaro'
 

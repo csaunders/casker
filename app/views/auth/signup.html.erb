@@ -1,2 +1,21 @@
-<%= link_to 'Sign in With Google', '/auth/google_oauth2' %>
-<%= link_to "Sign in With Facebook", '/auth/facebook' %>
+<%= form_for empty_user, url: login_path do |f|%>
+    <fieldset>
+        <legend>Log into Your Account</legend>
+
+        <%= f.label :identifier, 'Username' do %>
+        <%= f.text_field :identifier %>
+        <% end %>
+
+        <%= f.label :password do %>
+        <%= f.password_field :password %>
+        <% end %>
+
+        <%= f.submit "Login", class: 'button' %>
+    </fieldset>
+<% end %>
+
+<%= link_to '/auth/google_oauth2', class: 'button' do %>
+    <i class="fa fa-google"></i> Log in with Google
+<% end %>
+<%= link_to "Log in With Facebook", '/auth/facebook', class: 'button' %>
+
