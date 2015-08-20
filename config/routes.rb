@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   delete 'logout', to: 'auth#logout', as: 'logout'
   get '/auth/:provider/callback', to: 'auth#callback'
 
+  root to: 'brochure#index'
+
   namespace :legacy do
     post 'login', to: 'welcome#login', as: 'login'
     delete 'logout', to: 'welcome#logout', as: 'logout'

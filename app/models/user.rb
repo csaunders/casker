@@ -8,6 +8,7 @@ class User < ActiveRecord::Base
 
   has_many :roles, dependent: :destroy
   has_many :tasting_notes, dependent: :destroy
+  has_many :wishlists, dependent: :destroy
 
   def guest?
     authenticated_by == GUEST

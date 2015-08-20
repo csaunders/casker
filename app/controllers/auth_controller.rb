@@ -21,7 +21,7 @@ class AuthController < ApplicationController
   def callback
     manager = UserManager.new(params[:provider], request.env['omniauth.auth'], current_user)
     manager.activate
-    self.user = manager.user
+    self.current_user = manager.user
     render text: 'Done'
   end
 end
