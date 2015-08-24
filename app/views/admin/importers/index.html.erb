@@ -1,0 +1,45 @@
+<h4>Create a new Import</h4>
+<%= form_tag admin_importers_path, method: :post, multipart: true do %>
+    <div class="row">
+        <div class="small-6 large-6 columns">
+            <label for="name">Name</label>
+            <%= text_field_tag :name %>
+
+            <label for="data">Event Data</label>
+            <%= file_field_tag :data %>
+
+            <label for="processor">Data for which Event?</label>
+            <%= select_tag :processor, [], disabled: true %>
+
+            <%= submit_tag "Submit Data for Processing", class: 'button' %>
+        </div>
+    </div>
+<% end %>
+
+<hr />
+
+<h4>Imported Festivals</h4>
+<table>
+    <thead>
+        <tr>
+            <th width="500">Name</th>
+            <th width="100">Created On</th>
+            <th width="10">Processed?</th>
+            <th width="10">Imported?</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% imports.each do |import| %>
+            <tr>
+                <td><%= link_to import.name, admin_importer_path(import) %></td>
+                <td><%= import.created_at %></td>
+                <td>
+                    <% if import.processed_data.present? %>
+                        <i class="fa fa-check"></i>
+                    <% end %>
+                </td>
+                <td></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>

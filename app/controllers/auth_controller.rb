@@ -10,7 +10,7 @@ class AuthController < ApplicationController
     )
     manager.activate
     self.current_user = manager.user
-    render text: 'Logged In'
+    redirect_to root_path
   end
 
   def logout
@@ -22,6 +22,6 @@ class AuthController < ApplicationController
     manager = UserManager.new(params[:provider], request.env['omniauth.auth'], current_user)
     manager.activate
     self.current_user = manager.user
-    render text: 'Done'
+    redirect_to root_path
   end
 end

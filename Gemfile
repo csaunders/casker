@@ -34,6 +34,7 @@ gem 'foundation-rails'
 gem "font-awesome-rails"
 gem 'rails_12factor', group: :production
 gem 'figaro'
+gem 'roo'
 
 gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'

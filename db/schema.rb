@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150819210659) do
+ActiveRecord::Schema.define(version: 20150821190440) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -97,22 +97,32 @@ ActiveRecord::Schema.define(version: 20150819210659) do
   add_index "festival_entries", ["festival_id"], name: "index_festival_entries_on_festival_id", using: :btree
 
   create_table "festivals", force: :cascade do |t|
-    t.string   "name",             null: false
+    t.string   "name",                             null: false
     t.text     "description"
     t.text     "description_html"
-    t.datetime "starts_at",        null: false
-    t.datetime "ends_at",          null: false
-    t.string   "website",          null: false
+    t.datetime "starts_at",                        null: false
+    t.datetime "ends_at",                          null: false
+    t.string   "website",                          null: false
     t.decimal  "latitude"
     t.decimal  "longitude"
-    t.decimal  "address",          null: false
-    t.integer  "location_id",      null: false
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
+    t.decimal  "address",                          null: false
+    t.integer  "location_id",                      null: false
+    t.datetime "created_at",                       null: false
+    t.datetime "updated_at",                       null: false
+    t.boolean  "published",        default: false, null: false
   end
 
   add_index "festivals", ["location_id"], name: "index_festivals_on_location_id", using: :btree
   add_index "festivals", ["starts_at"], name: "index_festivals_on_starts_at", using: :btree
+
+  create_table "imports", force: :cascade do |t|
+    t.string   "name",           null: false
+    t.string   "processor",      null: false
+    t.text     "raw_data",       null: false
+    t.text     "processed_data"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+  end
 
   create_table "locations", force: :cascade do |t|
     t.string   "city"

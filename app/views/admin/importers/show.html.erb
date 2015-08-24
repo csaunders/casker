@@ -1,0 +1,28 @@
+<%= form_for import, url: admin_importer_path(import), method: :put do |f| %>
+    <h4>Festival Details</h4>
+    <% fields_for Festival.new(event.festival) do |model| %>
+    <% end %>
+
+    <h4>Brewery Details</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Website</th>
+                <th>Tagline</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <% event.breweries.each do |b| %>
+                <tr>
+                    <td><%= text_field_tag "breweries[][name]", b[:name] %></td>
+                    <td><%= text_field_tag "breweries[][website]", b[:website] %></td>
+                    <td><%= text_field_tag "breweries[][tagline]", b[:tagline] %></td>
+                    <td><%= hidden_field "breweries[][signature]", b[:signature] %></td>
+                    <td><%= hidden_field "breweries[][location_signature]", b[:location_signature] %></td>
+                </tr>
+            <% end %>
+        </tbody>
+    </table>
+<% end %>

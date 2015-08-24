@@ -12,13 +12,8 @@ class UserManager
 
   def activate
     return unless user.guest?
-    user.update_attributes(
-      authenticated_by: provider,
-      identifier: identifier,
-      name: reader.name,
-      password: reader.password,
-      password_confirmation: reader.password_confirmation
-    )
+    update_user
+    apply_roles
   end
 
   private
@@ -33,6 +28,19 @@ class UserManager
   end
 
   def update_user
+    user.update_attributes(
+      authenticated_by: provider,
+      identifier: identifier,
+      name: reader.name,
+      password: reader.password,
+      password_confirmation: reader.password_confirmation
+    )
+  end
+
+  def apply_roles
+   manager = UserRoleManager.new(user)
+   manager.grant(Role::USER)
+   manager.grant(Role::ADMIN)
   end
 
   class EmailCredentialReader
@@ -65,7 +73,7 @@ class UserManager
     end
 
     def identifier
-      @auth_hash[:uid]
+      @auth_hash[:uid].to_s
     end
 
     def name

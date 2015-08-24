@@ -4,16 +4,19 @@ class UserRoleManager
   end
 
   def grant(role)
-    return if user.has?(role)
-    user.roles.create(name: role)
+    return unless permitted_accounts(role).include?(user.identifier)
+    user.roles.find_or_create(name: role)
   end
 
   def revoke(role)
-    return unless user.has?(role)
     user.roles.destroy(name: role)
   end
 
-  def has?(role)
-    user.roles.where(name: role).exists?
+  private
+  attr_reader :user
+
+  def permitted_accounts(role)
+    return [user.identifier] if role == Role::USER
+    (ENV["permitted_#{role}_users"] || "").split
   end
 end

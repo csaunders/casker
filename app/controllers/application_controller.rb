@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def logged_in?
-    user.present?
+    current_user.present?
   end
 
   def current_user
@@ -16,6 +16,10 @@ class ApplicationController < ActionController::Base
     return unless user.persisted?
     session[:user_id] = user.id
     @user = user
+  end
+
+  def render_404
+    raise ActionController::RoutingError.new('Not Found')
   end
 
   private

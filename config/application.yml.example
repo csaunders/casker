@@ -3,8 +3,10 @@ development:
   facebook_secret: nope
   google_client_secret: nope
   google_client_secret: nope
+  permitted_admin_users: ""
 staging:
   facebook_key: nope
   facebook_secret: nope
   google_client_secret: nope
   google_client_secret: nope
+  permitted_admin_users: ""

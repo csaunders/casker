@@ -3,6 +3,7 @@ class AdminAreaController < ApplicationController
 
   private
   def require_admin
-    user.roles.admin?
+    return if current_user.admin?
+    render_404
   end
 end

@@ -4,6 +4,18 @@ Rails.application.routes.draw do
   delete 'logout', to: 'auth#logout', as: 'logout'
   get '/auth/:provider/callback', to: 'auth#callback'
 
+  namespace :admin do
+    resources :festivals
+    resources :beers
+    resources :breweries
+    resources :beer_styles
+    resources :importers, only: %i(index show create update) do
+      post 'finalize'
+    end
+  end
+
+  get 'admin', to: 'admin/dashboard#index', as: 'admin_dashboard'
+
   root to: 'brochure#index'
 
   namespace :legacy do

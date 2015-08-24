@@ -18,6 +18,10 @@ class User < ActiveRecord::Base
     OAUTH.include?(authenticated_by)
   end
 
+  def admin?
+    roles.admin.exists?
+  end
+
   private
   def account_authentication
     return if AUTHENTICATION_PROVIDERS.include?(authenticated_by)
