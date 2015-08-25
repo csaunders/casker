@@ -1,6 +1,29 @@
 <%= form_for import, url: admin_importer_path(import), method: :put do |f| %>
     <h4>Festival Details</h4>
-    <% fields_for Festival.new(event.festival) do |model| %>
+    <%= fields_for Festival.new(event.festival) do |model| %>
+        <%= model.label :name %>
+        <%= model.text_field :name %>
+
+        <%= model.label :description %>
+        <%= model.text_field :description %>
+
+        <%= model.label :starts_at %>
+        <%= model.text_field :starts_at %>
+
+        <%= model.label :ends_at %>
+        <%= model.text_field :ends_at %>
+
+        <%= model.label :website %>
+        <%= model.text_field :website %>
+
+        <%= model.label :address %>
+        <%= model.text_field :address %>
+
+        <%= model.label :longitude %>
+        <%= model.text_field :longitude %>
+
+        <%= model.label :latitude %>
+        <%= model.text_field :latitude %>
     <% end %>
 
     <h4>Brewery Details</h4>
@@ -19,8 +42,42 @@
                     <td><%= text_field_tag "breweries[][name]", b[:name] %></td>
                     <td><%= text_field_tag "breweries[][website]", b[:website] %></td>
                     <td><%= text_field_tag "breweries[][tagline]", b[:tagline] %></td>
-                    <td><%= hidden_field "breweries[][signature]", b[:signature] %></td>
-                    <td><%= hidden_field "breweries[][location_signature]", b[:location_signature] %></td>
+                    <%= hidden_field_tag "breweries[][signature]", b[:signature] %>
+                    <%= hidden_field "breweries[][location_signature]", b[:location_signature] %>
+                </tr>
+            <% end %>
+        </tbody>
+    </table>
+
+    <h4>Style Details</h4>
+    <div class="row">
+        <% event.beer_styles.each do |s| %>
+            <div class="small-3 large-3 columns left">
+                <td><%= text_field_tag "styles[][name]", s[:name] %></td>
+                <%= hidden_field_tag "styles[][signature]", s[:signature] %>
+            </div>
+        <% end %>
+    </div>
+
+    <h4>Beer Details</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>ABV</th>
+                <th width="400">Metadata</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <% event.beers.each do |b| %>
+                <tr>
+                    <td><%= text_field_tag "beers[][name]", b[:name] %></td>
+                    <td><%= text_field_tag "beers[][abv]", b[:abv] %></td>
+                    <td><%= text_area_tag "beers[][meta]", JSON.pretty_generate(b[:meta]), rows: 5 %></td>
+                    <%= hidden_field_tag "beers[][style_signature]", b[:style_signature] %>
+                    <%= hidden_field_tag "beers[][brewery_signature]", b[:style_signature] %>
+                    <%= hidden_field_tag "beers[][location_signature]", b[:style_signature] %>
                 </tr>
             <% end %>
         </tbody>

@@ -100,7 +100,7 @@ require 'digest'
 
       def locations
         xls.sheets.map do |sheet|
-          {name: sheet.gsub(/\(.+\)/, ''), signature: signature(sheet)}
+          {name: normalize(sheet).gsub(/\(.+\)/, ''), signature: signature(sheet)}
         end
       end
 
@@ -109,10 +109,10 @@ require 'digest'
         xls.each_with_pagename do |location_name, sheet|
           sheet.each(name: BREWERY_NAME) do |row|
             next if row[:name] == BREWERY_NAME
-            name = row[:name].gsub(/\*/, '').titleize.strip.gsub(/\s+/, ' ')
+            name = row[:name]
             brewery_signature = signature(name)
             breweries[brewery_signature] ||= {
-              name: name,
+              name: normalize(name),
               signature: brewery_signature,
               location_signature: signature(location_name)
             }
@@ -125,9 +125,13 @@ require 'digest'
         styles = {}
         xls.each_with_pagename do |_, sheet|
           sheet.each(style: BEER_STYLE) do |row|
+            next if row[:style] == BEER_STYLE
             style = row[:style]
             style_signature = signature(style)
-            styles[style_signature] ||= {name: style, signature: style_signature}
+            styles[style_signature] ||= {
+              name: normalize(style),
+              signature: style_signature
+            }
           end
         end
         styles.values
@@ -137,10 +141,12 @@ require 'digest'
         beers = []
         xls.each_with_pagename do |location, sheet|
           sheet.each(event_num: EVENT_NUM, brewery: BREWERY_NAME, name: BEER_NAME, style: BEER_STYLE, abv: BEER_ABV, session: SESSION_NUM) do |row|
+            next if row[:event_num] == EVENT_NUM
             beers << {
-              meta: {number: row[:event_num], session: row[:session_num]},
+              meta: {number: row[:event_num].to_i, session: row[:session_num]},
               name: row[:name],
               abv: row[:abv],
+              details: row[:style],
               style_signature: signature(row[:style]),
               brewery_signature: signature(row[:brewery]),
               location_signature: signature(location)
@@ -154,6 +160,10 @@ require 'digest'
       attr_reader :xls
       def signature(value)
         Digest::MD5.hexdigest(value)
+      end
+
+      def normalize(str)
+        str.gsub(/\*/, '').titleize.strip.gsub(/\s+/, ' ')
       end
 
     end
