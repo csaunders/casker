@@ -21,11 +21,12 @@ require 'digest'
       )
     end
 
-    def finalize
+    def finalize!
       create_locations
       create_breweries
       create_styles
       create_beers
+      create_festival
     end
 
     def to_hash
@@ -41,8 +42,8 @@ require 'digest'
     private
     attr_reader :cache
 
-    def  create_record(model, data)
-      model.where(data).first_or_create
+    def create_record(model, data)
+      model.where(data).first_or_create!
     end
 
     def create_locations
@@ -141,10 +142,10 @@ require 'digest'
         beers = []
         xls.each_with_pagename do |location, sheet|
           sheet.each(event_num: EVENT_NUM, brewery: BREWERY_NAME, name: BEER_NAME, style: BEER_STYLE, abv: BEER_ABV, session: SESSION_NUM) do |row|
-            next if row[:event_num] == EVENT_NUM
+            next if row[:event_num].to_i == 0
             beers << {
-              meta: {number: row[:event_num].to_i, session: row[:session_num]},
-              name: row[:name],
+              meta: {number: row[:event_num].to_i, session: row[:session]},
+              name: normalize(row[:name]),
               abv: row[:abv],
               details: row[:style],
               style_signature: signature(row[:style]),

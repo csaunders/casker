@@ -22,6 +22,10 @@ class User < ActiveRecord::Base
     roles.admin.exists?
   end
 
+  def collaborator?
+    roles.collaborator.exists?
+  end
+
   private
   def account_authentication
     return if AUTHENTICATION_PROVIDERS.include?(authenticated_by)
